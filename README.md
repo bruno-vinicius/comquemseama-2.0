@@ -4,7 +4,8 @@ Site do casório
 
 TODO List:
 
+ - Extrair página VLOG do Wix []
  - Favicon []
  - Separar e organizar assets
- - Fontes []
+ - Fontes [X]
  - JS []

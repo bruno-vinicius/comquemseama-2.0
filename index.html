@@ -1,0 +1,3707 @@
+<!DOCTYPE html>
+
+<html class="">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title></title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="https://static.parastorage.com/services/core/2.1229.72/images/mobile/editorMobile/favicon.ico">
+
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="googleMap" src="./comquemseama-2.0_files/googleMap.min.js.download"></script>
+
+	<style type="text/css">
+		html,
+		body,
+		div,
+		span,
+		applet,
+		object,
+		iframe,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p,
+		blockquote,
+		pre,
+		a,
+		abbr,
+		acronym,
+		address,
+		big,
+		cite,
+		code,
+		del,
+		dfn,
+		em,
+		font,
+		img,
+		ins,
+		kbd,
+		q,
+		s,
+		samp,
+		small,
+		strike,
+		strong,
+		sub,
+		sup,
+		tt,
+		var,
+		b,
+		u,
+		i,
+		center,
+		dl,
+		dt,
+		dd,
+		ol,
+		ul,
+		li,
+		fieldset,
+		form,
+		label,
+		legend,
+		table,
+		caption,
+		tbody,
+		tfoot,
+		thead,
+		tr,
+		th,
+		td,
+		nav,
+		button,
+		section,
+		header,
+		footer,
+		title {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			outline: 0;
+			vertical-align: baseline;
+			background: transparent;
+		}
+
+		body {
+			font-size: 10px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		textarea,
+		input,
+		select {
+			font-family: Helvetica, Arial, sans-serif;
+			box-sizing: border-box;
+		}
+
+		ol,
+		ul {
+			list-style: none;
+		}
+
+		blockquote,
+		q {
+			quotes: none;
+		}
+
+		ins {
+			text-decoration: none;
+		}
+
+		del {
+			text-decoration: line-through;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		a {
+			cursor: pointer;
+			text-decoration: none;
+		}
+
+		html,
+		body {
+			height: 100%;
+		}
+
+		body {
+			overflow-x: auto;
+			overflow-y: scroll;
+		}
+
+		.testStyles {
+			overflow-y: hidden;
+		}
+
+		.reset-button {
+			background: none;
+			border: 0;
+			outline: 0;
+			color: inherit;
+			/* cursor: default; */
+			font: inherit;
+			line-height: normal;
+			overflow: visible;
+			padding: 0;
+			-webkit-appearance: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+		}
+
+		:focus {
+			outline: none;
+		}
+
+		.wixSiteProperties {
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			overflow: hidden;
+		}
+
+		.SITE_ROOT {
+			min-height: 100%;
+			position: relative;
+			margin: 0 auto;
+		}
+
+		.POPUPS_ROOT {
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			overflow-x: auto;
+			overflow-y: scroll;
+			position: fixed;
+			z-index: 99999;
+		}
+
+		.POPUPS_ROOT.mobile {
+			z-index: 1005;
+			-webkit-overflow-scrolling: touch;
+		}
+
+		.POPUPS_WRAPPER {
+			position: relative;
+			overflow: hidden;
+		}
+
+		.POPUPS_WRAPPER>div {
+			/* page */
+			margin: 0 auto;
+		}
+
+		.auto-generated-link {
+			color: inherit;
+		}
+
+		.warmup .hidden-on-warmup {
+			visibility: hidden;
+		}
+
+		html.device-phone body {
+			overflow-y: auto;
+		}
+
+		html.device-mobile-optimized.device-android {
+			margin-bottom: 1px;
+		}
+
+		html.device-mobile-optimized.blockSiteScrolling>body {
+			position: fixed;
+			width: 100%;
+		}
+
+		html.device-mobile-optimized.media-zoom-mode>body {
+			touch-action: manipulation;
+		}
+
+		html.device-mobile-optimized.media-zoom-mode>body>#SITE_CONTAINER {
+			height: 100%;
+			overflow: hidden;
+		}
+
+		html.device-mobile-optimized.media-zoom-mode>body>#SITE_CONTAINER>.noop {
+			height: 100%;
+		}
+
+		html.device-mobile-optimized.media-zoom-mode>body>#SITE_CONTAINER>.noop>.siteAspectsContainer {
+			height: 100%;
+			z-index: 1005;
+		}
+
+		.siteAspectsContainer {
+			position: absolute;
+			top: 0;
+			margin: 0 auto;
+			left: 0;
+			right: 0;
+		}
+
+		body.device-mobile-optimized {
+			overflow-x: hidden;
+			overflow-y: scroll;
+		}
+
+		body.device-mobile-optimized.qa-mode {
+			overflow-y: auto;
+		}
+
+		body.device-mobile-optimized #SITE_CONTAINER {
+			width: 320px;
+			overflow-x: visible;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		body.device-mobile-optimized>* {
+			max-width: 100% !important;
+		}
+
+		body.device-mobile-optimized .SITE_ROOT {
+			overflow-x: hidden;
+			overflow-y: hidden;
+		}
+
+		body.device-mobile-non-optimized #SITE_CONTAINER> :not(.mobile-non-optimized-overflow) .SITE_ROOT {
+			overflow-x: hidden;
+			overflow-y: auto;
+		}
+
+		body.device-mobile-non-optimized.fullScreenMode {
+			background-color: #5f6360;
+		}
+
+		body.device-mobile-non-optimized.fullScreenMode .SITE_ROOT,
+		body.device-mobile-non-optimized.fullScreenMode #SITE_BACKGROUND,
+		body.device-mobile-non-optimized.fullScreenMode #MOBILE_ACTIONS_MENU {
+			visibility: hidden;
+		}
+
+		body.fullScreenMode {
+			overflow-x: hidden !important;
+			overflow-y: hidden !important;
+		}
+
+		body.fullScreenMode.device-mobile-optimized #TINY_MENU {
+			opacity: 0;
+			pointer-events: none;
+		}
+
+		body.fullScreenMode-scrollable.device-mobile-optimized {
+			overflow-x: hidden !important;
+			overflow-y: auto !important;
+		}
+
+		body.fullScreenMode-scrollable.device-mobile-optimized .SITE_ROOT,
+		body.fullScreenMode-scrollable.device-mobile-optimized #masterPage {
+			overflow-x: hidden !important;
+			overflow-y: hidden !important;
+		}
+
+		body.fullScreenMode-scrollable.device-mobile-optimized #masterPage,
+		body.fullScreenMode-scrollable.device-mobile-optimized #SITE_BACKGROUND {
+			height: auto !important;
+		}
+
+		.fullScreenOverlay {
+			z-index: 1005;
+			position: fixed;
+			left: 0;
+			top: -60px;
+			right: 0;
+			bottom: 0;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			overflow-y: hidden;
+		}
+
+		.fullScreenOverlay>.fullScreenOverlayContent {
+			margin: 0 auto;
+			position: absolute;
+			right: 0;
+			top: 60px;
+			left: 0;
+			bottom: 0;
+			overflow: hidden;
+			-webkit-transform: translateZ(0);
+			transform: translateZ(0);
+		}
+
+		.mobile-actions-menu-wrapper {
+			z-index: 1000;
+		}
+
+		body[contenteditable] {
+			overflow-x: auto;
+			overflow-y: auto;
+		}
+
+		.bold {
+			font-weight: bold;
+		}
+
+		.italic {
+			font-style: italic;
+		}
+
+		.underline {
+			text-decoration: underline;
+		}
+
+		.lineThrough {
+			text-decoration: line-through;
+		}
+
+		.singleLineText {
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+
+		.alignLeft {
+			text-align: left;
+		}
+
+		.alignCenter {
+			text-align: center;
+		}
+
+		.alignRight {
+			text-align: right;
+		}
+
+		.alignJustify {
+			text-align: justify;
+		}
+
+		ul.font_100,
+		ol.font_100 {
+			color: #080808;
+			font-family: 'Arial, Helvetica, sans-serif', serif;
+			font-size: 10px;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: normal;
+			margin: 0;
+			text-decoration: none;
+			line-height: normal;
+			letter-spacing: normal;
+		}
+
+		ul.font_100 li,
+		ol.font_100 li {
+			margin-bottom: 12px;
+		}
+
+		letter {
+			position: relative;
+			display: inline-block;
+		}
+
+		word {
+			display: inline-block;
+			white-space: nowrap;
+		}
+
+		word.space,
+		letter.space {
+			display: inline;
+		}
+
+		ol.wix-list-text-align,
+		ul.wix-list-text-align {
+			list-style-position: inside;
+		}
+
+		ol.wix-list-text-align p,
+		ol.wix-list-text-align h1,
+		ol.wix-list-text-align h2,
+		ol.wix-list-text-align h3,
+		ol.wix-list-text-align h4,
+		ol.wix-list-text-align h5,
+		ol.wix-list-text-align h6,
+		ul.wix-list-text-align p,
+		ul.wix-list-text-align h1,
+		ul.wix-list-text-align h2,
+		ul.wix-list-text-align h3,
+		ul.wix-list-text-align h4,
+		ul.wix-list-text-align h5,
+		ul.wix-list-text-align h6 {
+			display: inline;
+		}
+
+		.wixapps-less-spacers-align.ltr {
+			text-align: left;
+		}
+
+		.wixapps-less-spacers-align.center {
+			text-align: center;
+		}
+
+		.wixapps-less-spacers-align.rtl {
+			text-align: right;
+		}
+
+		.wixapps-less-spacers-align>div,
+		.wixapps-less-spacers-align>a {
+			display: inline-block !important;
+		}
+
+		.flex_display {
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: flex;
+		}
+
+		.flex_vbox {
+			box-sizing: border-box;
+			padding-top: 0.01em;
+			padding-bottom: 0.01em;
+		}
+
+		a.wixAppsLink img {
+			cursor: pointer;
+		}
+
+		.singleLine {
+			white-space: nowrap;
+			display: block;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			word-wrap: normal;
+		}
+
+		[data-z-counter] {
+			z-index: 0;
+		}
+
+		[data-z-counter="0"] {
+			z-index: auto;
+		}
+
+		.circle-preloader {
+			-webkit-animation: semi-rotate 1s 1ms linear infinite;
+			animation: semi-rotate 1s 1ms linear infinite;
+			height: 30px;
+			left: 50%;
+			margin-left: -15px;
+			margin-top: -15px;
+			overflow: hidden;
+			position: absolute;
+			top: 50%;
+			-webkit-transform-origin: 100% 50%;
+			transform-origin: 100% 50%;
+			width: 15px;
+		}
+
+		.circle-preloader::before {
+			content: '';
+			top: 0;
+			left: 0;
+			right: -100%;
+			bottom: 0;
+			border: 3px solid currentColor;
+			border-color: currentColor transparent transparent currentColor;
+			border-radius: 50%;
+			position: absolute;
+			-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			-webkit-animation: inner-rotate 0.5s 1ms linear infinite alternate;
+			animation: inner-rotate 0.5s 1ms linear infinite alternate;
+			color: #7fccf7;
+		}
+
+		.circle-preloader::after {
+			content: '';
+			top: 0;
+			left: 0;
+			right: -100%;
+			bottom: 0;
+			border: 3px solid currentColor;
+			border-color: currentColor transparent transparent currentColor;
+			border-radius: 50%;
+			position: absolute;
+			-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			-webkit-animation: inner-rotate 0.5s 1ms linear infinite alternate;
+			animation: inner-rotate 0.5s 1ms linear infinite alternate;
+			color: #3899ec;
+			opacity: 0;
+		}
+
+		.circle-preloader.white::before {
+			color: #f0f0f0;
+		}
+
+		.circle-preloader.white::after {
+			color: #dcdcdc;
+		}
+
+		@-webkit-keyframes inner-rotate {
+			to {
+				opacity: 1;
+				-webkit-transform: rotate(115deg);
+				transform: rotate(115deg);
+			}
+		}
+
+		@keyframes inner-rotate {
+			to {
+				opacity: 1;
+				-webkit-transform: rotate(115deg);
+				transform: rotate(115deg);
+			}
+		}
+
+		@-webkit-keyframes semi-rotate {
+			from {
+				-webkit-animation-timing-function: ease-out;
+				animation-timing-function: ease-out;
+				-webkit-transform: rotate(180deg);
+				transform: rotate(180deg);
+			}
+			45% {
+				-webkit-transform: rotate(198deg);
+				transform: rotate(198deg);
+			}
+			55% {
+				-webkit-transform: rotate(234deg);
+				transform: rotate(234deg);
+			}
+			to {
+				-webkit-transform: rotate(540deg);
+				transform: rotate(540deg);
+			}
+		}
+
+		@keyframes semi-rotate {
+			from {
+				-webkit-animation-timing-function: ease-out;
+				animation-timing-function: ease-out;
+				-webkit-transform: rotate(180deg);
+				transform: rotate(180deg);
+			}
+			45% {
+				-webkit-transform: rotate(198deg);
+				transform: rotate(198deg);
+			}
+			55% {
+				-webkit-transform: rotate(234deg);
+				transform: rotate(234deg);
+			}
+			to {
+				-webkit-transform: rotate(540deg);
+				transform: rotate(540deg);
+			}
+		}
+
+		.hidden-comp-ghost-mode {
+			opacity: 0.5;
+		}
+
+		.collapsed-comp-mode::after {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			content: '';
+			background: -webkit-repeating-linear-gradient(135deg, transparent, transparent 49%, #2b5672 40%, #2b5672 40%, transparent 51%);
+			background: repeating-linear-gradient(-45deg, transparent, transparent 49%, #2b5672 40%, #2b5672 40%, transparent 51%);
+			background-size: 6px 6px;
+			background-repeat: repeat;
+		}
+
+		.g-transparent-a:link,
+		.g-transparent-a:visited {
+			border-color: transparent;
+		}
+
+		.transitioning-comp * {
+			transition: inherit !important;
+			-webkit-transition: inherit !important;
+		}
+
+		.selectionSharerContainer {
+			position: absolute;
+			background-color: #ffffff;
+			box-shadow: 0px 4px 10px 0px rgba(57, 86, 113, 0.24);
+			width: 142px;
+			height: 45px;
+			border-radius: 100px;
+			text-align: center;
+		}
+
+		.selectionSharerContainer:after {
+			content: "";
+			position: absolute;
+			bottom: -10px;
+			left: 42%;
+			/*controls horizontal position */
+			border-width: 10px 10px 0;
+			/* vary these values to change the angle of the vertex */
+			border-style: solid;
+			border-color: #ffffff transparent;
+			/* reduce the damage in FF3.0 */
+			display: block;
+			width: 0;
+		}
+
+		.selectionSharerContainer .selectionSharerOption {
+			display: inline-block;
+			cursor: pointer;
+			vertical-align: top;
+			padding: 13px 11px 11px 13px;
+			margin: 1px;
+			z-index: -1;
+		}
+
+		.selectionSharerContainer .selectionSharerVerticalSeparator {
+			margin-top: 9px;
+			margin-bottom: 18px;
+			background-color: #eaf7ff;
+			height: 26px;
+			width: 1px;
+			display: inline-block;
+		}
+
+		.visual-focus-on :not(.has-custom-focus):focus {
+			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 1px 2px #3899EC !important;
+		}
+		/*# sourceMappingURL=viewer.css.map */
+	</style>
+	<link rel="stylesheet" href="./comquemseama-2.0_files/css" id="font_googleFonts">
+	<link rel="stylesheet" href="./comquemseama-2.0_files/languages.css" id="font_langauges">
+</head>
+
+<body class="">
+	<div id="SITE_CONTAINER" data-santa-render-status="CLIENT">
+		<div class="noop" data-santa-version="1.2367.24" data-reactid=".0">
+			<div data-reactid=".0.0">
+				<style type="text/css" data-reactid=".0.0.$theme_fonts">
+					.font_0 {
+						font: normal normal bold 106px/1.4em sacramento, cursive;
+						color: #FFFFFF;
+					}
+
+					.font_1 {
+						font: normal normal bold 16px/1.4em raleway, sans-serif;
+						color: #FFFFFF;
+					}
+
+					.font_2 {
+						font: normal normal normal 25px/1.4em raleway, sans-serif;
+						color: #FFFFFF;
+					}
+
+					.font_3 {
+						font: normal normal bold 120px/1.4em raleway, sans-serif;
+						color: #FFFFFF;
+					}
+
+					.font_4 {
+						font: normal normal bold 94px/1.4em raleway, sans-serif;
+						color: #FFFFFF;
+					}
+
+					.font_5 {
+						font: normal normal bold 38px/1.4em sacramento, cursive;
+						color: #FFFFFF;
+					}
+
+					.font_6 {
+						font: normal normal normal 36px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+						color: #B6B6B6;
+					}
+
+					.font_7 {
+						font: normal normal normal 18px/1.4em raleway, sans-serif;
+						color: #FFFFFF;
+					}
+
+					.font_8 {
+						font: normal normal normal 15px/1.4em raleway, sans-serif;
+						color: #FFFFFF;
+					}
+
+					.font_9 {
+						font: normal normal normal 14px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+						color: #FFFFFF;
+					}
+
+					.font_10 {
+						font: normal normal normal 12px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+						color: #FFFFFF;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$theme_colors">
+					.color_0 {
+						color: #FFFFFF;
+					}
+
+					.backcolor_0 {
+						background-color: #FFFFFF;
+					}
+
+					.color_1 {
+						color: #000000;
+					}
+
+					.backcolor_1 {
+						background-color: #000000;
+					}
+
+					.color_2 {
+						color: #FFFFFF;
+					}
+
+					.backcolor_2 {
+						background-color: #FFFFFF;
+					}
+
+					.color_3 {
+						color: #ED1C24;
+					}
+
+					.backcolor_3 {
+						background-color: #ED1C24;
+					}
+
+					.color_4 {
+						color: #0088CB;
+					}
+
+					.backcolor_4 {
+						background-color: #0088CB;
+					}
+
+					.color_5 {
+						color: #FFCB05;
+					}
+
+					.backcolor_5 {
+						background-color: #FFCB05;
+					}
+
+					.color_6 {
+						color: #727272;
+					}
+
+					.backcolor_6 {
+						background-color: #727272;
+					}
+
+					.color_7 {
+						color: #B0B0B0;
+					}
+
+					.backcolor_7 {
+						background-color: #B0B0B0;
+					}
+
+					.color_8 {
+						color: #FFFFFF;
+					}
+
+					.backcolor_8 {
+						background-color: #FFFFFF;
+					}
+
+					.color_9 {
+						color: #727272;
+					}
+
+					.backcolor_9 {
+						background-color: #727272;
+					}
+
+					.color_10 {
+						color: #B0B0B0;
+					}
+
+					.backcolor_10 {
+						background-color: #B0B0B0;
+					}
+
+					.color_11 {
+						color: #2F2E2E;
+					}
+
+					.backcolor_11 {
+						background-color: #2F2E2E;
+					}
+
+					.color_12 {
+						color: #605E5E;
+					}
+
+					.backcolor_12 {
+						background-color: #605E5E;
+					}
+
+					.color_13 {
+						color: #A0A09F;
+					}
+
+					.backcolor_13 {
+						background-color: #A0A09F;
+					}
+
+					.color_14 {
+						color: #B6B6B6;
+					}
+
+					.backcolor_14 {
+						background-color: #B6B6B6;
+					}
+
+					.color_15 {
+						color: #FFFFFF;
+					}
+
+					.backcolor_15 {
+						background-color: #FFFFFF;
+					}
+
+					.color_16 {
+						color: #234070;
+					}
+
+					.backcolor_16 {
+						background-color: #234070;
+					}
+
+					.color_17 {
+						color: #5274AC;
+					}
+
+					.backcolor_17 {
+						background-color: #5274AC;
+					}
+
+					.color_18 {
+						color: #ACD1E0;
+					}
+
+					.backcolor_18 {
+						background-color: #ACD1E0;
+					}
+
+					.color_19 {
+						color: #D6EAF3;
+					}
+
+					.backcolor_19 {
+						background-color: #D6EAF3;
+					}
+
+					.color_20 {
+						color: #E2F4FC;
+					}
+
+					.backcolor_20 {
+						background-color: #E2F4FC;
+					}
+
+					.color_21 {
+						color: #514409;
+					}
+
+					.backcolor_21 {
+						background-color: #514409;
+					}
+
+					.color_22 {
+						color: #A28712;
+					}
+
+					.backcolor_22 {
+						background-color: #A28712;
+					}
+
+					.color_23 {
+						color: #EBC52A;
+					}
+
+					.backcolor_23 {
+						background-color: #EBC52A;
+					}
+
+					.color_24 {
+						color: #F7E289;
+					}
+
+					.backcolor_24 {
+						background-color: #F7E289;
+					}
+
+					.color_25 {
+						color: #FBEDB0;
+					}
+
+					.backcolor_25 {
+						background-color: #FBEDB0;
+					}
+
+					.color_26 {
+						color: #400C12;
+					}
+
+					.backcolor_26 {
+						background-color: #400C12;
+					}
+
+					.color_27 {
+						color: #801824;
+					}
+
+					.backcolor_27 {
+						background-color: #801824;
+					}
+
+					.color_28 {
+						color: #BF2436;
+					}
+
+					.backcolor_28 {
+						background-color: #BF2436;
+					}
+
+					.color_29 {
+						color: #D47E88;
+					}
+
+					.backcolor_29 {
+						background-color: #D47E88;
+					}
+
+					.color_30 {
+						color: #EAABB2;
+					}
+
+					.backcolor_30 {
+						background-color: #EAABB2;
+					}
+
+					.color_31 {
+						color: #20433E;
+					}
+
+					.backcolor_31 {
+						background-color: #20433E;
+					}
+
+					.color_32 {
+						color: #40867D;
+					}
+
+					.backcolor_32 {
+						background-color: #40867D;
+					}
+
+					.color_33 {
+						color: #61C9BB;
+					}
+
+					.backcolor_33 {
+						background-color: #61C9BB;
+					}
+
+					.color_34 {
+						color: #A2DBD4;
+					}
+
+					.backcolor_34 {
+						background-color: #A2DBD4;
+					}
+
+					.color_35 {
+						color: #C4EDE8;
+					}
+
+					.backcolor_35 {
+						background-color: #C4EDE8;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$style-j2nlovw4">
+					.style-j2nlovw4screenWidthBackground {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.style-j2nlovw4[data-state~="mobileView"] {
+						position: absolute !important;
+					}
+
+					.style-j2nlovw4[data-state~="fixedPosition"] {
+						position: fixed !important;
+						left: auto !important;
+						z-index: 50;
+					}
+
+					.style-j2nlovw4[data-state~="fixedPosition"].style-j2nlovw4_footer {
+						top: auto;
+						bottom: 0;
+					}
+
+					.style-j2nlovw4bg {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.style-j2nlovw4inlineContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.style-j2nlovw4centeredContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$txtNew">
+					.txtNew {
+						word-wrap: break-word;
+					}
+
+					.txtNew_override-left * {
+						text-align: left !important;
+					}
+
+					.txtNew_override-right * {
+						text-align: right !important;
+					}
+
+					.txtNew_override-center * {
+						text-align: center !important;
+					}
+
+					.txtNew_override-justify * {
+						text-align: justify !important;
+					}
+
+					.txtNew li {
+						font-style: inherit;
+						font-weight: inherit;
+						line-height: inherit;
+						letter-spacing: normal;
+					}
+
+					.txtNew ol,
+					.txtNew ul {
+						padding-left: 1.3em;
+						padding-right: 0;
+						margin-left: 0.5em;
+						margin-right: 0;
+						line-height: normal;
+						letter-spacing: normal;
+					}
+
+					.txtNew ul {
+						list-style-type: disc;
+					}
+
+					.txtNew ol {
+						list-style-type: decimal;
+					}
+
+					.txtNew ul ul,
+					.txtNew ol ul {
+						list-style-type: circle;
+					}
+
+					.txtNew ul ul ul,
+					.txtNew ol ul ul {
+						list-style-type: square;
+					}
+
+					.txtNew ul ol ul,
+					.txtNew ol ol ul {
+						list-style-type: square;
+					}
+
+					.txtNew ul[dir="rtl"],
+					.txtNew ol[dir="rtl"] {
+						padding-left: 0;
+						padding-right: 1.3em;
+						margin-left: 0;
+						margin-right: 0.5em;
+					}
+
+					.txtNew ul[dir="rtl"] ul,
+					.txtNew ul[dir="rtl"] ol,
+					.txtNew ol[dir="rtl"] ul,
+					.txtNew ol[dir="rtl"] ol {
+						padding-left: 0;
+						padding-right: 1.3em;
+						margin-left: 0;
+						margin-right: 0.5em;
+					}
+
+					.txtNew p {
+						margin: 0;
+						line-height: normal;
+						letter-spacing: normal;
+					}
+
+					.txtNew h1 {
+						margin: 0;
+						line-height: normal;
+						letter-spacing: normal;
+					}
+
+					.txtNew h2 {
+						margin: 0;
+						line-height: normal;
+						letter-spacing: normal;
+					}
+
+					.txtNew h3 {
+						margin: 0;
+						line-height: normal;
+						letter-spacing: normal;
+					}
+
+					.txtNew h4 {
+						margin: 0;
+						line-height: normal;
+						letter-spacing: normal;
+					}
+
+					.txtNew h5 {
+						margin: 0;
+						line-height: normal;
+						letter-spacing: normal;
+					}
+
+					.txtNew h6 {
+						margin: 0;
+						line-height: normal;
+						letter-spacing: normal;
+					}
+
+					.txtNew a {
+						color: inherit;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$wp2">
+					.wp2_zoomedin {
+						cursor: url(https://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/cursor_zoom_out.png), url(https://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/cursor_zoom_out.cur), auto;
+						overflow: hidden;
+						display: block;
+					}
+
+					.wp2_zoomedout {
+						cursor: url(https://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/cursor_zoom_in.png), url(https://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/cursor_zoom_in.cur), auto;
+					}
+
+					.wp2link {
+						display: block;
+						overflow: hidden;
+					}
+
+					.wp2img {
+						overflow: hidden;
+					}
+
+					.wp2imgimage {
+						position: static;
+						box-shadow: #000 0 0 0;
+						-webkit-user-select: none;
+						-moz-user-select: none;
+						-ms-user-select: none;
+						user-select: none;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$pc1">
+					.pc1screenWidthBackground {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.pc1[data-state~="mobileView"] {
+						position: absolute !important;
+					}
+
+					.pc1[data-state~="fixedPosition"] {
+						position: fixed !important;
+						left: auto !important;
+						z-index: 50;
+					}
+
+					.pc1[data-state~="fixedPosition"].pc1_footer {
+						top: auto;
+						bottom: 0;
+					}
+
+					.pc1bg {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.pc1inlineContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.pc1centeredContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$s_VOwPageGroupSkin">
+					.s_VOwPageGroupSkin {
+						height: 100px;
+						width: 100px;
+					}
+
+					.s_VOwPageGroupSkinoverlay {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+						background-color: rgba(0, 0, 0, 0.664);
+					}
+
+					.s_VOwPageGroupSkininlineContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$style-j2nnxe7y">
+					.style-j2nnxe7yscreenWidthBackground {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.style-j2nnxe7y[data-state~="mobileView"] {
+						position: absolute !important;
+					}
+
+					.style-j2nnxe7y[data-state~="fixedPosition"] {
+						position: fixed !important;
+						left: auto !important;
+						z-index: 50;
+					}
+
+					.style-j2nnxe7y[data-state~="fixedPosition"].style-j2nnxe7y_footer {
+						top: auto;
+						bottom: 0;
+					}
+
+					.style-j2nnxe7y_bg {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+						background-color: rgba(11, 17, 77, 1);
+						border-top: 0px solid rgba(255, 255, 255, 1);
+						border-bottom: 0px solid rgba(255, 255, 255, 1);
+					}
+
+					.style-j2nnxe7y[data-state~="mobileView"] .style-j2nnxe7ybg {
+						left: 10px;
+						right: 10px;
+					}
+
+					.style-j2nnxe7ybg {
+						position: absolute;
+						top: 0px;
+						right: 0;
+						bottom: 0px;
+						left: 0;
+						background-color: rgba(11, 17, 77, 1);
+						border-radius: 0;
+					}
+
+					.style-j2nnxe7yinlineContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.style-j2nnxe7ycenteredContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$bgis1">
+					.bgis1bg {
+						background-color: rgba(35, 64, 112, 1);
+						box-sizing: border-box;
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+						border-top: 0px solid rgba(255, 255, 255, 1);
+						border-bottom: 0px solid rgba(255, 255, 255, 1);
+					}
+
+					.bgis1inlineContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$style-j2no1fwf">
+					.style-j2no1fwfitemsContainer {
+						width: calc(100% - 0px);
+						height: calc(100% - 0px);
+						white-space: nowrap;
+						display: inline-block;
+						overflow: visible;
+						position: relative;
+					}
+
+					.style-j2no1fwfmoreContainer {
+						overflow: visible;
+						display: inherit;
+						white-space: nowrap;
+						width: auto;
+						background-color: rgba(255, 255, 255, 1);
+						border-radius: 0;
+						box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+						;
+					}
+
+					.style-j2no1fwfdropWrapper {
+						z-index: 99999;
+						display: block;
+						opacity: 1;
+						visibility: hidden;
+						position: absolute;
+						margin-top: 7px;
+					}
+
+					.style-j2no1fwf[data-dropmode="dropUp"] .style-j2no1fwfdropWrapper {
+						margin-top: 0;
+						margin-bottom: 7px;
+					}
+
+					.style-j2no1fwfrepeaterButton {
+						height: 100%;
+						position: relative;
+						box-sizing: border-box;
+						display: inline-block;
+						cursor: pointer;
+						font: normal normal normal 16px/1.4em 'fredericka the great', fantasy;
+						border-left: 1px solid rgba(35, 64, 112, 1);
+					}
+
+					.style-j2no1fwfrepeaterButton[data-state~="header"] a,
+					.style-j2no1fwfrepeaterButton[data-state~="header"] div {
+						cursor: default !important;
+					}
+
+					.style-j2no1fwfrepeaterButtonlabel {
+						color: #F7E07C;
+						transition: color 0.4s ease 0s;
+						display: inline-block;
+						padding: 0 10px;
+					}
+
+					.style-j2no1fwfrepeaterButton_wrapper {
+						padding: 0 5px;
+					}
+
+					.style-j2no1fwfrepeaterButton:first-child[data-direction="ltr"] {
+						border: 0;
+					}
+
+					.style-j2no1fwfrepeaterButton:last-child[data-direction="rtl"] {
+						border: 0;
+					}
+
+					.style-j2no1fwfrepeaterButton[data-listposition="lonely"] {
+						border: 0;
+					}
+
+					.style-j2no1fwfrepeaterButton[data-state~="over"] .style-j2no1fwfrepeaterButtonlabel {
+						color: #EBC52A;
+						transition: color 0.4s ease 0s;
+					}
+
+					.style-j2no1fwfrepeaterButton[data-state~="selected"] .style-j2no1fwfrepeaterButtonlabel {
+						color: #B6B6B6;
+						transition: color 0.4s ease 0s;
+					}
+
+					.style-j2no1fwfrepeaterButton[data-state~="drop"] {
+						width: 100%;
+						display: block;
+						border: 0;
+						border-top: 1px solid rgba(35, 64, 112, 1);
+					}
+
+					.style-j2no1fwfrepeaterButton[data-state~="drop"] .style-j2no1fwfrepeaterButtonlabel {
+						display: inline-block;
+						padding: 0 .5em;
+					}
+
+					.style-j2no1fwfrepeaterButton[data-state~="drop"] .style-j2no1fwfrepeaterButton_wrapper {
+						padding: 0;
+					}
+
+					.style-j2no1fwfrepeaterButton[data-listposition="top"] {
+						border: 0;
+					}
+
+					.style-j2no1fwfrepeaterButton[data-listposition="dropLonely"] {
+						border: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$p1">
+					.p1bg {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.p1[data-state~="mobileView"] .p1bg {
+						left: 10px;
+						right: 10px;
+					}
+
+					.p1inlineContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$style-j2nyu3gk">
+					.style-j2nyu3gkwrapper {
+						min-width: 180px;
+						max-width: 980px;
+						max-height: 1024px;
+						position: absolute;
+						width: 100%;
+					}
+
+					.style-j2nyu3gk_hiddenField {
+						display: none !important;
+					}
+
+					.style-j2nyu3gk li {
+						box-sizing: border-box;
+						position: relative;
+					}
+
+					.style-j2nyu3gk ul {
+						box-sizing: border-box;
+						position: relative;
+					}
+
+					.style-j2nyu3gk_foot {
+						min-height: 50px;
+						position: relative;
+					}
+
+					.style-j2nyu3gk span {
+						color: #FFFFFF;
+						font: normal 14px 'Helvetica Neue', Helvetica, sans-serif;
+						position: absolute;
+						top: 0;
+					}
+
+					.style-j2nyu3gk span.style-j2nyu3gk_success {
+						color: #BADA55;
+					}
+
+					.style-j2nyu3gk span.style-j2nyu3gk_error {
+						color: #BF2436;
+					}
+
+					.style-j2nyu3gk button,
+					.style-j2nyu3gk input,
+					.style-j2nyu3gk textarea {
+						box-sizing: border-box;
+						border-radius: 0;
+					}
+
+					.style-j2nyu3gk input,
+					.style-j2nyu3gk textarea {
+						background-color: rgba(186, 125, 132, 0.4);
+						font: normal normal normal 15px/1.4em raleway, sans-serif;
+						-webkit-appearance: none;
+						-moz-appearance: none;
+						border: 2px solid rgba(11, 17, 77, 1);
+						color: #FFFFFF;
+						margin: 0 0 5px;
+						padding: 5px;
+						width: 100%;
+					}
+
+					.style-j2nyu3gk input.style-j2nyu3gk_error,
+					.style-j2nyu3gk textarea.style-j2nyu3gk_error {
+						border: 2px solid #BF2436;
+						color: #BF2436;
+						font: normal normal normal 15px/1.4em raleway, sans-serif;
+					}
+
+					.style-j2nyu3gk textarea {
+						height: 100%;
+						resize: none;
+					}
+
+					.style-j2nyu3gk button {
+						border: 0;
+						color: #234070;
+						cursor: pointer;
+						background-color: rgba(235, 197, 42, 1);
+						font: normal normal normal 18px/1.4em raleway, sans-serif;
+						padding: 5px;
+						position: absolute;
+						top: 0;
+					}
+
+					.style-j2nyu3gk[data-state~="desktop"][data-state~="fieldMessageHidden"] li {
+						width: 100%;
+					}
+
+					.style-j2nyu3gk[data-state~="desktop"][data-state~="fieldMessageHidden"] li.style-j2nyu3gk_right {
+						display: none;
+					}
+
+					.style-j2nyu3gk[data-state~="desktop"] li {
+						width: 50%;
+					}
+
+					.style-j2nyu3gk[data-state~="desktop"][data-state~="left"] li.style-j2nyu3gk_left {
+						margin: 0;
+					}
+
+					.style-j2nyu3gk[data-state~="desktop"][data-state~="left"] li.style-j2nyu3gk_right {
+						bottom: 0;
+						padding: 0 0 5px 5px;
+						position: absolute;
+						right: 2px;
+						top: 0;
+					}
+
+					.style-j2nyu3gk[data-state~="desktop"][data-state~="right"] li.style-j2nyu3gk_left {
+						margin-left: 50%;
+					}
+
+					.style-j2nyu3gk[data-state~="desktop"][data-state~="right"] li.style-j2nyu3gk_right {
+						bottom: 0;
+						left: 2px;
+						padding: 0 5px 5px 0;
+						position: absolute;
+						top: 0;
+					}
+
+					.style-j2nyu3gk[data-state~="mobile"] li {
+						display: block;
+						width: 100%;
+					}
+
+					.style-j2nyu3gk[data-state~="mobile"] input,
+					.style-j2nyu3gk[data-state~="mobile"] textarea {
+						font-size: 16px;
+					}
+
+					.style-j2nyu3gk[data-state~="mobile"] input::-webkit-input-placeholder,
+					.style-j2nyu3gk[data-state~="mobile"] textarea::-webkit-input-placeholder {
+						line-height: 45px;
+						font-size: 16px;
+					}
+
+					.style-j2nyu3gk[data-state~="mobile"] input:-ms-input-placeholder,
+					.style-j2nyu3gk[data-state~="mobile"] textarea:-ms-input-placeholder {
+						line-height: 45px;
+						font-size: 16px;
+					}
+
+					.style-j2nyu3gk[data-state~="mobile"] input::placeholder,
+					.style-j2nyu3gk[data-state~="mobile"] textarea::placeholder {
+						line-height: 45px;
+						font-size: 16px;
+					}
+
+					.style-j2nyu3gk[data-state~="mobile"] input {
+						height: 45px;
+						line-height: 45px;
+						margin-bottom: 15px;
+					}
+
+					.style-j2nyu3gk[data-state~="mobile"] textarea {
+						height: 130px;
+					}
+
+					.style-j2nyu3gk input::-webkit-input-placeholder,
+					.style-j2nyu3gk textarea::-webkit-input-placeholder {
+						color: #5F7394;
+						font: normal normal normal 15px/1.4em raleway, sans-serif;
+					}
+
+					.style-j2nyu3gk input:-ms-input-placeholder,
+					.style-j2nyu3gk textarea:-ms-input-placeholder {
+						color: #5F7394;
+						font: normal normal normal 15px/1.4em raleway, sans-serif;
+					}
+
+					.style-j2nyu3gk input::placeholder,
+					.style-j2nyu3gk textarea::placeholder {
+						color: #5F7394;
+						font: normal normal normal 15px/1.4em raleway, sans-serif;
+					}
+
+					.style-j2nyu3gk input::-webkit-input-placeholder.style-j2nyu3gk_error,
+					.style-j2nyu3gk textarea::-webkit-input-placeholder.style-j2nyu3gk_error {
+						color: #BF2436;
+						font: normal normal normal 15px/1.4em raleway, sans-serif;
+					}
+
+					.style-j2nyu3gk input:-ms-input-placeholder.style-j2nyu3gk_error,
+					.style-j2nyu3gk textarea:-ms-input-placeholder.style-j2nyu3gk_error {
+						color: #BF2436;
+						font: normal normal normal 15px/1.4em raleway, sans-serif;
+					}
+
+					.style-j2nyu3gk input::placeholder.style-j2nyu3gk_error,
+					.style-j2nyu3gk textarea::placeholder.style-j2nyu3gk_error {
+						color: #BF2436;
+						font: normal normal normal 15px/1.4em raleway, sans-serif;
+					}
+
+					.style-j2nyu3gk[data-state~="right"] {
+						direction: rtl;
+						text-align: right;
+					}
+
+					.style-j2nyu3gk[data-state~="right"] button {
+						left: 0;
+					}
+
+					.style-j2nyu3gk[data-state~="right"] span {
+						left: 100px;
+						right: 0;
+					}
+
+					.style-j2nyu3gk[data-state~="left"] {
+						direction: ltr;
+						text-align: left;
+					}
+
+					.style-j2nyu3gk[data-state~="left"] button {
+						right: 0;
+					}
+
+					.style-j2nyu3gk[data-state~="left"] span {
+						left: 0;
+						right: 100px;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$bgis3">
+					.bgis3bg {
+						background-color: rgba(235, 197, 42, 1);
+						box-sizing: border-box;
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+						border-top: 0px solid rgba(255, 255, 255, 1);
+						border-bottom: 0px solid rgba(255, 255, 255, 1);
+					}
+
+					.bgis3inlineContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$bgis4">
+					.bgis4bg {
+						background-color: rgba(172, 209, 224, 1);
+						box-sizing: border-box;
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+						border-top: 0px solid rgba(255, 255, 255, 1);
+						border-bottom: 0px solid rgba(255, 255, 255, 1);
+					}
+
+					.bgis4inlineContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$Anchor_1">
+					.Anchor_1 {
+						visibility: hidden;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$gm1">
+					.gm1[data-state~="squared"],
+					.gm1[data-state~="squared"] .gm1mapContainer {
+						border-radius: 0;
+					}
+
+					.gm1mapContainer {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$style-j5sghccl">
+					.style-j5sghccl[data-state~="shouldUseFlex"] .style-j5sghccllink,
+					.style-j5sghccl[data-state~="shouldUseFlex"] .style-j5sghccllabelwrapper {
+						text-align: initial;
+						display: -webkit-box;
+						display: -webkit-flex;
+						display: flex;
+						-webkit-box-align: center;
+						-webkit-align-items: center;
+						align-items: center;
+					}
+
+					.style-j5sghccl[data-state~="shouldUseFlex"][data-state~="center"] .style-j5sghccllink,
+					.style-j5sghccl[data-state~="shouldUseFlex"][data-state~="center"] .style-j5sghccllabelwrapper {
+						-webkit-box-pack: center;
+						-webkit-justify-content: center;
+						justify-content: center;
+					}
+
+					.style-j5sghccl[data-state~="shouldUseFlex"][data-state~="left"] .style-j5sghccllink,
+					.style-j5sghccl[data-state~="shouldUseFlex"][data-state~="left"] .style-j5sghccllabelwrapper {
+						-webkit-box-pack: start;
+						-webkit-justify-content: flex-start;
+						justify-content: flex-start;
+					}
+
+					.style-j5sghccl[data-state~="shouldUseFlex"][data-state~="right"] .style-j5sghccllink,
+					.style-j5sghccl[data-state~="shouldUseFlex"][data-state~="right"] .style-j5sghccllabelwrapper {
+						-webkit-box-pack: end;
+						-webkit-justify-content: flex-end;
+						justify-content: flex-end;
+					}
+
+					.style-j5sghccl[data-disabled="false"] {
+						cursor: pointer;
+					}
+
+					.style-j5sghccl[data-disabled="false"]:active[data-state~="mobile"] .style-j5sghccllabel,
+					.style-j5sghccl[data-disabled="false"]:hover[data-state~="desktop"] .style-j5sghccllabel {
+						color: #BA7D84;
+						transition: color 0.4s ease 0s;
+					}
+
+					.style-j5sghccllink {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.style-j5sghccllabel {
+						font: normal normal 700 30px/1.4em 'amatic sc', cursive;
+						transition: color 0.4s ease 0s;
+						color: #FFFFFF;
+						white-space: nowrap;
+						display: inline-block;
+					}
+
+					.style-j5sghccl[data-disabled="true"] .style-j5sghccllabel {
+						color: #FFFFFF;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$style-j5sky6e6">
+					.style-j5sky6e6[data-state~="shouldUseFlex"] .style-j5sky6e6link,
+					.style-j5sky6e6[data-state~="shouldUseFlex"] .style-j5sky6e6labelwrapper {
+						text-align: initial;
+						display: -webkit-box;
+						display: -webkit-flex;
+						display: flex;
+						-webkit-box-align: center;
+						-webkit-align-items: center;
+						align-items: center;
+					}
+
+					.style-j5sky6e6[data-state~="shouldUseFlex"][data-state~="center"] .style-j5sky6e6link,
+					.style-j5sky6e6[data-state~="shouldUseFlex"][data-state~="center"] .style-j5sky6e6labelwrapper {
+						-webkit-box-pack: center;
+						-webkit-justify-content: center;
+						justify-content: center;
+					}
+
+					.style-j5sky6e6[data-state~="shouldUseFlex"][data-state~="left"] .style-j5sky6e6link,
+					.style-j5sky6e6[data-state~="shouldUseFlex"][data-state~="left"] .style-j5sky6e6labelwrapper {
+						-webkit-box-pack: start;
+						-webkit-justify-content: flex-start;
+						justify-content: flex-start;
+					}
+
+					.style-j5sky6e6[data-state~="shouldUseFlex"][data-state~="right"] .style-j5sky6e6link,
+					.style-j5sky6e6[data-state~="shouldUseFlex"][data-state~="right"] .style-j5sky6e6labelwrapper {
+						-webkit-box-pack: end;
+						-webkit-justify-content: flex-end;
+						justify-content: flex-end;
+					}
+
+					.style-j5sky6e6 {
+						overflow: hidden;
+					}
+
+					.style-j5sky6e6[data-disabled="false"] {
+						cursor: pointer !important;
+					}
+
+					.style-j5sky6e6[data-disabled="false"]:active[data-state~="mobile"] .style-j5sky6e6_bg,
+					.style-j5sky6e6[data-disabled="false"]:hover[data-state~="desktop"] .style-j5sky6e6_bg {
+						background: rgba(247, 224, 124, 1);
+					}
+
+					.style-j5sky6e6[data-disabled="false"]:active[data-state~="mobile"] .style-j5sky6e6label,
+					.style-j5sky6e6[data-disabled="false"]:hover[data-state~="desktop"] .style-j5sky6e6label {
+						color: #FFFFFF;
+					}
+
+					.style-j5sky6e6[data-disabled="false"]:active[data-state~="mobile"] .style-j5sky6e6_top,
+					.style-j5sky6e6[data-disabled="false"]:hover[data-state~="desktop"] .style-j5sky6e6_top {
+						border-bottom-color: rgba(247, 224, 124, 1) !important;
+					}
+
+					.style-j5sky6e6[data-disabled="false"]:active[data-state~="mobile"] .style-j5sky6e6_bottom,
+					.style-j5sky6e6[data-disabled="false"]:hover[data-state~="desktop"] .style-j5sky6e6_bottom {
+						border-top-color: rgba(247, 224, 124, 1) !important;
+					}
+
+					.style-j5sky6e6_bg {
+						background: rgba(49, 99, 93, 1);
+						position: absolute;
+						top: 0;
+						right: 50px;
+						bottom: 0;
+						left: 0;
+					}
+
+					.style-j5sky6e6link {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+
+					.style-j5sky6e6label {
+						font: normal normal 700 24px/1.4em 'amatic sc', cursive;
+						color: #000000;
+						display: inline-block;
+						position: relative;
+						white-space: nowrap;
+					}
+
+					.style-j5sky6e6_top,
+					.style-j5sky6e6_bottom {
+						border-left: 0;
+						border-right: 50px solid transparent;
+						position: absolute;
+						right: 0;
+					}
+
+					.style-j5sky6e6[data-state~="mobile"] .style-j5sky6e6_top,
+					.style-j5sky6e6[data-state~="mobile"] .style-j5sky6e6_bottom {
+						right: 1px;
+					}
+
+					.style-j5sky6e6_top {
+						border-bottom: 50px solid rgba(49, 99, 93, 1);
+						bottom: 50% !important;
+					}
+
+					.style-j5sky6e6[data-state~="mobile"] .style-j5sky6e6_top {
+						-webkit-transform: scale(1.01);
+						transform: scale(1.01);
+					}
+
+					.style-j5sky6e6_bottom {
+						border-top: 50px solid rgba(49, 99, 93, 1);
+						top: 50% !important;
+					}
+
+					.style-j5sky6e6[data-disabled="true"] .style-j5sky6e6_bg {
+						background: rgba(204, 204, 204, 1);
+					}
+
+					.style-j5sky6e6[data-disabled="true"] .style-j5sky6e6label {
+						color: #FFFFFF;
+					}
+
+					.style-j5sky6e6[data-disabled="true"] .style-j5sky6e6_top {
+						border-bottom-color: rgba(204, 204, 204, 1);
+					}
+
+					.style-j5sky6e6[data-disabled="true"] .style-j5sky6e6_bottom {
+						border-top-color: rgba(204, 204, 204, 1);
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$style-j2nyjnky">
+					.style-j2nyjnkybg {
+						border: 0px solid rgba(149, 0, 50, 1);
+						background-color: rgba(11, 17, 77, 1);
+						border-radius: 20px;
+					}
+
+					.style-j2nyjnkyinlineContent,
+					.style-j2nyjnkybg {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$style-j2np6l4w">
+					.style-j2np6l4wbg {
+						border: 0px solid rgba(149, 0, 50, 1);
+						background-color: rgba(11, 17, 77, 1);
+						border-radius: 20px;
+					}
+
+					.style-j2np6l4winlineContent,
+					.style-j2np6l4wbg {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$style-j5skwzrt">
+					.style-j5skwzrt {
+						border-bottom: 3px solid rgba(11, 17, 77, 1);
+						height: 0 !important;
+						min-height: 0 !important;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$style-j5skwmt5">
+					.style-j5skwmt5 {
+						border-bottom: 3px solid rgba(11, 17, 77, 1);
+						height: 0 !important;
+						min-height: 0 !important;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$wixAds">
+					.wixAdsmobileAd {
+						width: 100%;
+						height: 30px;
+						position: relative;
+						display: block;
+						text-align: center;
+						background-color: #313131;
+						z-index: 999;
+					}
+
+					.wixAdsdesktopWADBottom {
+						position: fixed;
+						z-index: 999;
+						width: 100%;
+						bottom: 0;
+						max-height: 10vh;
+					}
+
+					.wixAdsdesktopWADBottomContent {
+						width: 100%;
+						height: 40px;
+						text-align: center;
+						background-color: #404040;
+						border-radius: 6px 6px 0 0;
+						pointer-events: all;
+						cursor: pointer;
+					}
+
+					.wixAdsdesktopWADBottomContent:hover {
+						background-color: #222;
+					}
+
+					.wixAds[data-state~="facebook"] .wixAdsdesktopWADBottomContent {
+						width: 500px;
+						margin: 0 auto;
+					}
+
+					.wixAdsdesktopWADTop {
+						position: fixed;
+						z-index: 999;
+						height: 26px;
+						top: 0;
+						right: 50px;
+						overflow: hidden;
+						background-color: #404040;
+						border-radius: 0 0 6px 6px;
+						pointer-events: all;
+						cursor: pointer;
+						-webkit-transition: all .3s ease-in-out;
+						transition: all .3s ease-in-out;
+					}
+
+					.wixAdsdesktopWADTop:hover {
+						height: 97px;
+						background-color: rgba(50, 50, 50, 0.8);
+					}
+
+					.wixAdsdesktopWADTop:hover .wixAdsdesktopWADTopLabel {
+						background-color: #222;
+					}
+
+					.wixAdsdesktopWADTopLabel {
+						padding: 6px;
+						font-size: 13px;
+						line-height: 1.3em;
+						color: #FFF;
+						width: 100%;
+						font-size: 13px;
+						color: #FFF;
+						font-weight: bold;
+						line-height: 18px;
+						text-align: justify;
+						padding: 5px 10px;
+					}
+
+					.wixAds[data-state~="desktop"] .wixAdsmobileAd {
+						display: none;
+					}
+
+					.wixAds[data-state~="mobile"] .wixAdsdesktopWADTop {
+						display: none;
+					}
+
+					.wixAds[data-state~="mobile"] .wixAdsdesktopWADBottom {
+						display: none;
+					}
+
+					.wixAdsdesktopWADTopLabel .wixAds_smallMusa {
+						display: inline-block;
+						text-indent: -9999px;
+						width: 16px;
+						height: 16px;
+						margin-right: 5px;
+						background-image: url("//static.wixstatic.com/media/0da768_0c5ce9e2ffa442bea0b79b690223a939~mv2.png");
+						background-repeat: no-repeat;
+						background-position: 0% 0%;
+					}
+
+					.wixAdsdesktopWADTopLabel .wixAds_smallLogo {
+						display: inline-block;
+						text-indent: -9999px;
+						width: 29px;
+						height: 16px;
+						background-image: url("//static.wixstatic.com/media/0da768_0c5ce9e2ffa442bea0b79b690223a939~mv2.png");
+						background-repeat: no-repeat;
+						background-position: -16px top;
+					}
+
+					.wixAdsdesktopWADTopContent {
+						font-size: 13px;
+						line-height: 1.3em;
+						color: #ffffff;
+						font-weight: bold;
+						line-height: 18px;
+						text-align: justify;
+						padding: 5px 10px;
+						width: 100%;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_faceBanner {
+						background-color: rgba(64, 64, 64, 1);
+						width: 500px;
+						height: 100%;
+						margin: 0 auto;
+						border-radius: 6px 6px 0 0;
+						padding: 5px 0 0 0;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_faceBanner div {
+						display: inline-block;
+						height: 30px;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_faceBanner .wixAds_txt {
+						color: #fff;
+						font-weight: bold;
+						font-size: 15px;
+						text-align: justify;
+						margin: -2px 10px 0 19px;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_faceBanner .wixAds_logoDot {
+						position: static;
+						margin: 0 3px;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_faceBanner .wixAds_emphasis {
+						font-weight: bold;
+						position: relative;
+						top: -6px;
+					}
+
+					.wixAdsdesktopWADTopContent .wixAds_spacer {
+						line-height: 26px;
+					}
+
+					.wixAdsdesktopWADTopContent .wixAds_emphasis {
+						color: #ffcc00;
+					}
+
+					.wixAdsdesktopWADTopContent .wixAds_cap {
+						font-size: 16px;
+						line-height: 1.3em;
+						text-transform: uppercase;
+					}
+
+					.wixAdsdesktopWADTopContent .wixAds_face {
+						display: block;
+						line-height: 18px;
+						text-align: justify;
+						padding: 0 20px;
+						width: 120px;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_adFootBox {
+						height: 40px;
+						width: 100%;
+						text-align: center;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_siteBanner {
+						background-color: rgba(64, 64, 64, 1);
+						border-radius: 6px 6px 0 0;
+						width: 100%;
+						height: 100%;
+						text-align: center;
+					}
+
+					.wixAdsdesktopWADBottomContent:hover .wixAds_siteBanner {
+						background-color: #222;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_siteBanner .wixAds_wrapper {
+						padding: 5px 0;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_siteBanner .wixAds_wrapper div {
+						display: inline-block;
+						height: 30px;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_bigMusa {
+						text-indent: -9999px;
+						width: 36px;
+						background-image: url("//static.wixstatic.com/media/0da768_0c5ce9e2ffa442bea0b79b690223a939~mv2.png");
+						background-repeat: no-repeat;
+						background-position: left bottom;
+						position: relative;
+						top: -19px;
+					}
+
+					.wixAdsdesktopWADBottomContent.wixAds_nativeAndroid .wixAds_bigMusa {
+						overflow: hidden;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_logoDot {
+						text-indent: -9999px;
+						width: 39px;
+						height: 15px;
+						position: relative;
+						top: -4px;
+						margin: 0 5px;
+						background-image: url("//static.wixstatic.com/media/0da768_0c5ce9e2ffa442bea0b79b690223a939~mv2.png");
+						background-repeat: no-repeat;
+						background-position: right -17px;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_emphasis {
+						color: #ffcc00;
+						font-size: 16px;
+						text-transform: uppercase;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_txt {
+						color: #fff;
+						font-weight: bold;
+						font-size: 15px;
+					}
+
+					.wixAdsdesktopWADBottomContent .wixAds_siteBanner .wixAds_txt {
+						line-height: 47px;
+					}
+
+					@media (orientation: landscape) {
+						.wixAdsmobileAd {
+							display: none;
+						}
+					}
+
+					@media (orientation: landscape) {
+						.wixAds_wixAds[data-state~="mobile"] {
+							display: none;
+						}
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$deadComp">
+					.deadComp {
+						background: transparent;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$siteBackground">
+					.siteBackground {
+						width: 100%;
+						position: absolute;
+					}
+
+					.siteBackgroundbgBeforeTransition {
+						position: absolute;
+						top: 0;
+					}
+
+					.siteBackgroundbgAfterTransition {
+						position: absolute;
+						top: 0;
+					}
+				</style>
+				<style type="text/css" data-reactid=".0.0.$loginDialog">
+					.loginDialog {
+						position: fixed;
+						width: 100%;
+						height: 100%;
+						z-index: 99;
+						font-family: Arial, sans-serif;
+						font-size: 1em;
+						color: #9C9C9C;
+					}
+
+					.loginDialogblockingLayer {
+						background-color: rgba(85, 85, 85, 0.75);
+						position: fixed;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+						visibility: visible;
+						zoom: 1;
+						overflow: auto;
+					}
+
+					.loginDialogdialog {
+						background-color: rgba(170, 170, 170, 0.7);
+						width: 455px;
+						position: fixed;
+						padding: 20px;
+					}
+
+					.loginDialog_wrapper {
+						background-color: rgba(255, 255, 255, 1);
+						padding: 45px 40px 0 40px;
+					}
+
+					.loginDialogxButton {
+						position: absolute;
+						top: -14px;
+						right: -14px;
+						cursor: pointer;
+						background: transparent url(https://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/viewer_login_sprite.png) no-repeat right top;
+						height: 30px;
+						width: 30px;
+					}
+
+					.loginDialogxButton:hover {
+						background-position: right -80px;
+					}
+
+					.loginDialogheader {
+						padding-bottom: 25px;
+						line-height: 30px;
+					}
+
+					.loginDialogfavIcon {
+						float: left;
+						margin: 7px 7px 0 0;
+						width: 16px;
+						height: 16px;
+					}
+
+					.loginDialogtitle {
+						font-size: 20px;
+						font-weight: bold;
+						color: #555555;
+					}
+
+					.loginDialog[data-state~="mobile"] {
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						z-index: 99;
+						font-family: Arial, sans-serif;
+						font-size: 1em;
+						color: #9C9C9C;
+						top: 0;
+					}
+
+					.loginDialog[data-state~="mobile"] .loginDialogheader {
+						padding-bottom: 10px;
+						line-height: 30px;
+					}
+
+					.loginDialog[data-state~="mobile"] .loginDialogfavIcon {
+						display: none;
+					}
+
+					.loginDialog[data-state~="mobile"] .loginDialogtitle {
+						font-size: 14px;
+					}
+
+					.loginDialog[data-state~="mobile"] .loginDialogdialog {
+						width: 260px;
+						padding: 10px;
+						position: absolute;
+					}
+
+					.loginDialog[data-state~="mobile"] .loginDialog_footer {
+						margin-top: 0;
+						padding-bottom: 10px;
+					}
+
+					.loginDialog[data-state~="mobile"] .loginDialogcancel {
+						font-size: 14px;
+						line-height: 30px;
+					}
+
+					.loginDialog[data-state~="mobile"] .loginDialog_wrapper {
+						padding: 14px 12px 0 12px;
+					}
+
+					.loginDialog[data-state~="mobile"] .loginDialogsubmitButton {
+						height: 30px;
+						width: 100px;
+						font-size: 14px;
+					}
+
+					.loginDialog_forgot {
+						text-align: left;
+						font-size: 12px;
+					}
+
+					.loginDialog_forgot a {
+						color: #0198ff;
+						border-bottom: 1px solid #0198ff;
+					}
+
+					.loginDialog_forgot a:hover {
+						color: #0044ff;
+						border-bottom: 1px solid #0044ff;
+					}
+
+					.loginDialog_error {
+						font-size: 12px;
+						color: #d74401;
+						text-align: right;
+					}
+
+					.loginDialog_footer {
+						width: 100%;
+						margin-top: 27px;
+						padding-bottom: 40px;
+					}
+
+					.loginDialogcancel {
+						color: #9C9C9C;
+						font-size: 18px;
+						text-decoration: underline;
+						line-height: 36px;
+					}
+
+					.loginDialogcancel:hover {
+						color: #9c3c3c;
+					}
+
+					.loginDialogpasswordInput label {
+						font-size: 14px;
+					}
+
+					.loginDialogpasswordInput label[data-type="password"] {
+						font-size: 14px;
+						line-height: 30px;
+						height: 30px;
+					}
+
+					.loginDialogsubmitButton {
+						float: right;
+						cursor: pointer;
+						border: solid 2px #0064a8;
+						height: 36px;
+						width: 143px;
+						background: transparent url(https://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/viewer_login_sprite.png) repeat-x right -252px;
+						color: #ffffff;
+						font-size: 24px;
+						font-weight: bold;
+						box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+					}
+
+					.loginDialogsubmitButton:hover {
+						background-position: right -352px;
+						border-color: #004286;
+					}
+
+					.loginDialog[data-state="normal"] .loginDialogerror {
+						display: none;
+					}
+
+					.loginDialog[data-state="error"] .loginDialogerror {
+						display: block;
+						font-size: 12px;
+						color: #d74401;
+						text-align: right;
+					}
+
+					.loginDialog[data-state="error"] .loginDialogpasswordInput {
+						border-color: #d74401;
+					}
+
+					.loginDialogpasswordInput {
+						font-size: 1em;
+					}
+
+					.loginDialogpasswordInput label {
+						float: none;
+						font-size: 17px;
+						line-height: 25px;
+						color: #585858;
+					}
+
+					.loginDialogpasswordInput[data-state~="mobile"] label {
+						float: none;
+						font-size: 14px;
+						line-height: 20px;
+						color: #585858;
+					}
+
+					.loginDialogpasswordInputinput {
+						padding: 0 15px;
+						width: 100%;
+						height: 42px;
+						font-size: 19px;
+						line-height: 42px;
+						color: #0198ff;
+						margin: 0 -3px;
+						background: transparent url(https://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/viewer_login_sprite.png) repeat-x right -170px;
+						border: solid 1px #a1a1a1;
+						box-sizing: border-box;
+					}
+
+					.loginDialogpasswordInput[data-state~="mobile"] .loginDialogpasswordInputinput {
+						padding: 0 15px;
+						width: 100%;
+						height: 30px;
+						font-size: 14px;
+						line-height: 30px;
+						color: #0198ff;
+						margin: 0 -3px;
+						background: transparent url(https://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/viewer_login_sprite.png) repeat-x right -170px;
+						border: solid 1px #a1a1a1;
+						box-sizing: border-box;
+					}
+
+					.loginDialogpasswordInputinput[data-type="password"] {
+						font-size: 38px;
+					}
+
+					.loginDialogpasswordInput[data-state~="mobile"] .loginDialogpasswordInputinput[data-type="password"] {
+						font-size: 14px;
+					}
+
+					.loginDialogpasswordInputerrorMessage {
+						display: block;
+						font-size: 12px;
+						color: #d74401;
+						text-align: right;
+						height: 15px;
+					}
+
+					.loginDialogpasswordInput:not([data-state~="invalid"]) .loginDialogpasswordInputerrorMessage {
+						visibility: hidden;
+					}
+
+					.loginDialogpasswordInput[data-state~="invalid"] .loginDialogpasswordInputerrorMessage {
+						visibility: visible;
+					}
+
+					.loginDialogpasswordInput[data-state~="invalid"] input {
+						border-color: #d74401;
+					}
+
+					.loginDialogpasswordInput[data-state~="invalid"] .loginDialogpasswordInputinput {
+						border-color: red;
+					}
+				</style>
+
+				<style type="text/css" data-reactid=".0.0.$strc1">
+					.strc1inlineContent {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+					}
+				</style>
+
+				<style type="text/css" data-reactid=".0.0.$testStyle">
+					.testStyles {
+						position: absolute;
+						display: none;
+						z-index: 2
+					}
+				</style>
+
+				<div class="testStyles" data-reactid=".0.0.s"></div>
+
+				<style type="text/css" data-reactid=".0.0.$uploadedFonts">
+
+				</style>
+
+				<div style="overflow:hidden;visibility:hidden;max-height:0;max-width:0;position:absolute;" data-reactid=".0.0.$fontsLoader">
+
+					<style data-reactid=".0.0.$fontsLoader.0">
+						.font-ruler-content::after {
+							content: "@#$%%^&*~IAO"
+						}
+					</style>
+				</div>
+			</div>
+			<div id="SITE_BACKGROUND" class="siteBackground" style="position: absolute; top: 0px; height: 5692px; width: 1349px;" data-reactid=".0.$SITE_BACKGROUND">
+				<div id="SITE_BACKGROUND_previous_noPrev" class="siteBackgroundprevious" data-reactid=".0.$SITE_BACKGROUND.$noPrevscrollpreview"
+				 style="width: 100%; height: 100%;">
+					<div id="SITE_BACKGROUNDpreviousImage" class="siteBackgroundpreviousImage" data-reactid=".0.$SITE_BACKGROUND.$noPrevscrollpreview.$previousImage"></div>
+					<div id="SITE_BACKGROUNDpreviousVideo" class="siteBackgroundpreviousVideo" data-reactid=".0.$SITE_BACKGROUND.$noPrevscrollpreview.$previousVideo"></div>
+					<div id="SITE_BACKGROUND_previousOverlay_noPrev" class="siteBackgroundpreviousOverlay" data-reactid=".0.$SITE_BACKGROUND.$noPrevscrollpreview.$previousOverlay"></div>
+				</div>
+				<div id="SITE_BACKGROUND_current_customBgImg3vn" style="top: 0px; background-color: rgb(219, 184, 154); position: fixed; width: 100%; height: 100%;"
+				 data-position="fixed" class="siteBackgroundcurrent" data-reactid=".0.$SITE_BACKGROUND.$customBgImg3vnfixedpreview">
+					<div id="SITE_BACKGROUND_currentImage_customBgImg3vn" style="position: absolute; top: 0px; width: 100%; background-size: auto; background-position: left top; background-repeat: repeat-x; height: 100%; background-image: url(&quot;https://static.wixstatic.com/media/1d5057_e312a68ed00046fc862db3fb54f7d855~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85/1d5057_e312a68ed00046fc862db3fb54f7d855~mv2.webp&quot;);"
+					 data-type="bgimage" data-height="100%" class="siteBackgroundcurrentImage" data-reactid=".0.$SITE_BACKGROUND.$customBgImg3vnfixedpreview.$currentImage"
+					 data-image-css="{&quot;backgroundSize&quot;:&quot;auto&quot;,&quot;backgroundPosition&quot;:&quot;left top&quot;,&quot;backgroundRepeat&quot;:&quot;repeat-x&quot;,&quot;height&quot;:&quot;100%&quot;}"></div>
+					<div id="SITE_BACKGROUNDcurrentVideo" class="siteBackgroundcurrentVideo" data-reactid=".0.$SITE_BACKGROUND.$customBgImg3vnfixedpreview.$currentVideo"></div>
+					<div id="SITE_BACKGROUND_currentOverlay_customBgImg3vn" style="position:absolute;top:0;width:100%;height:100%;"
+					 class="siteBackgroundcurrentOverlay" data-reactid=".0.$SITE_BACKGROUND.$customBgImg3vnfixedpreview.$currentOverlay"></div>
+				</div>
+			</div>
+			<div class="SITE_ROOT" id="SITE_ROOT" style="width:980px;padding-bottom:40px;" data-reactid=".0.$SITE_ROOT">
+				<div id="masterPage" style="width: 980px; position: static; top: 0px; height: 5692px;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot">
+					<header style="position: absolute; width: 980px; top: 0px; height: 585px; left: 0px;" class="style-j2nlovw4" data-state=" "
+					 id="SITE_HEADER" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER">
+						<div id="SITE_HEADERscreenWidthBackground" class="style-j2nlovw4screenWidthBackground" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$screenWidthBackground"
+						 style="width: 1349px; left: -185px;"></div>
+						<div id="SITE_HEADERcenteredContent" class="style-j2nlovw4centeredContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$centeredContent">
+							<div id="SITE_HEADERbg" class="style-j2nlovw4bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$centeredContent.$bg"></div>
+							<div id="SITE_HEADERinlineContent" class="style-j2nlovw4inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$centeredContent.$inlineContent">
+								<div style="left: 331px; width: 614px; position: absolute; top: 141px;" class="txtNew" id="ibgifhxp" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$centeredContent.$inlineContent.$ibgifhxp">
+									<h1 class="font_0" style="font-size:69px; line-height:1.2em; text-align:center;"><span style="font-weight:normal;"><span style="color:#000000;"><span style="font-size:69px;">Casamento</span></span>
+										</span>
+									</h1>
+
+									<h1 class="font_0" style="font-size:92px; line-height:1.2em; text-align:center;"><span style="color:#000000;"><span style="font-size:92px;"><span style="font-family:fredericka the great,fantasy;">Bruno e Sofia</span></span>
+										</span>
+									</h1>
+								</div>
+								<div style="left: 30px; position: absolute; top: 146px; width: 264px; height: 260px;" data-exact-height="260" data-content-padding-horizontal="0"
+								 data-content-padding-vertical="0" title="" class="wp2" id="comp-j2nl9eiw" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$centeredContent.$inlineContent.$comp-j2nl9eiw">
+									<div style="width: 264px; height: 260px;" id="comp-j2nl9eiwlink" class="wp2link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$centeredContent.$inlineContent.$comp-j2nl9eiw.$link">
+										<div id="comp-j2nl9eiwimg" data-style="" class="wp2img" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$centeredContent.$inlineContent.$comp-j2nl9eiw.$link.0"
+										 style="position: relative; width: 264px; height: 260px;">
+											<div class="wp2imgpreloader" id="comp-j2nl9eiwimgpreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$centeredContent.$inlineContent.$comp-j2nl9eiw.$link.0.$preloader"></div><img id="comp-j2nl9eiwimgimage" alt="" data-type="image" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$centeredContent.$inlineContent.$comp-j2nl9eiw.$link.0.$image"
+											 src="./comquemseama-2.0_files/1d5057_d8cd3767c84742758d15995c184ec489-mv2_d_1223_1208_s_2.png" style="width: 264px; height: 260px; object-fit: cover;"></div>
+									</div>
+								</div>
+								<div tabindex="0" role="button" style="left: 447px; width: 85px; position: absolute; top: 487px; height: 52px;" class="style-j2nzhm7o"
+								 id="icyhbeeg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.$centeredContent.$inlineContent.$icyhbeeg">
+									<style type="text/css">
+										.style-j2nzhm7o svg {
+											width: 100%;
+											height: 100%;
+											position: absolute;
+											top: 0;
+											right: 0;
+											bottom: 0;
+											left: 0;
+											margin: auto;
+											fill: #2F2E2E;
+											fill-opacity: 0.35;
+											stroke: rgba(255, 255, 255, 1);
+											stroke-width: 0px;
+										}
+
+										.style-j2nzhm7o svg * {
+											vector-effect: non-scaling-stroke;
+										}
+
+										.style-j2nzhm7o a {
+											display: block;
+											height: 100%;
+										}
+									</style>
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="69.80000305175781 83.50000762939453 60.49998474121094 32.899993896484375"
+									 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+										<g>
+											<path d="M129 90.1c-8.4 8.8-17.7 16.8-26.7 24.5l-.9.8c-.8.7-1.7 1-2.6 1s-1.8-.4-2.5-1.1c-8.3-8.8-16.4-17.3-25-25-1.2-1-1.5-2.5-1-4 .6-1.5 2.1-2.6 3.7-2.6.9 0 1.7.3 2.4 1 8.2 7.3 16 15.5 22.8 22.7 7.9-6.8 16.7-14.4 24.6-22.8.7-.7 1.6-1.1 2.5-1.1 1.4 0 2.8 1 3.5 2.4.5 1.5.3 3.1-.8 4.2z"></path>
+										</g>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</header>
+					<div style="width: 980px; position: absolute; top: 585px; height: 5018px; left: 0px;" class="pc1" data-state="" id="PAGES_CONTAINER"
+					 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER">
+						<div id="PAGES_CONTAINERscreenWidthBackground" class="pc1screenWidthBackground" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$screenWidthBackground"
+						 style="width: 1349px; left: -185px;"></div>
+						<div id="PAGES_CONTAINERcenteredContent" class="pc1centeredContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent">
+							<div id="PAGES_CONTAINERbg" class="pc1bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$bg"></div>
+							<div id="PAGES_CONTAINERinlineContent" class="pc1inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent">
+								<div style="left: 0px; width: 980px; position: absolute; top: 0px; height: 5018px;" class="s_VOwPageGroupSkin" id="SITE_PAGES"
+								 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES">
+									<div style="left: 0px; width: 980px; position: absolute; top: 0px; height: 5018px;" class="p1" id="c1dmp" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP">
+										<div id="c1dmpbg" class="p1bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$bg"></div>
+										<div id="c1dmpinlineContent" class="p1inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent">
+											<div style="left: 428px; width: 522px; position: absolute; top: 4757px; height: 180px;" class="style-j2nyu3gk"
+											 data-state="  field3Hidden field4Hidden   desktop left" id="ibt90z09" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09">
+												<div id="ibt90z09wrapper" class="style-j2nyu3gkwrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper">
+													<ul class="style-j2nyu3gk_row style-j2nyu3gk_form" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.0">
+														<li class="style-j2nyu3gk_col style-j2nyu3gk_left" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.0.0">
+															<div data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.0.0.0"><input id="field1" type="text" name="Nome" class="style-j2nyu3gk_required" placeholder="Nome" data-aid="nameField"
+																 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.0.0.0.$field1">
+																<input
+																 id="field2" type="text" name="Email" class="style-j2nyu3gk_required" placeholder="Email" data-aid="emailField"
+																 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.0.0.0.$field2"><input id="field3" type="text" name="Telefone" class="style-j2nyu3gk_hidden style-j2nyu3gk_hiddenField" placeholder="Telefone"
+																	 data-aid="phoneField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.0.0.0.$field3">
+																	<input
+																	 id="field4" type="text" name="Endereço" class="style-j2nyu3gk_hidden style-j2nyu3gk_hiddenField" placeholder="Endereço"
+																	 data-aid="addressField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.0.0.0.$field4"><input id="field5" type="text" name="Assunto" class="" placeholder="Assunto" data-aid="subjectField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.0.0.0.$field5"></div>
+														</li>
+														<li class="style-j2nyu3gk_col style-j2nyu3gk_right" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.0.1"><textarea name="Mensagem" class="style-j2nyu3gkfieldMessage" placeholder="Mensagem" data-aid="messageField"
+															 id="ibt90z09fieldMessage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.0.1.$fieldMessage"></textarea></li>
+													</ul>
+													<div class="style-j2nyu3gk_foot" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.1"><span class="style-j2nyu3gk_success style-j2nyu3gknotifications" id="ibt90z09notifications" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.1.$notifications"></span>
+														<button
+														 id="ibt90z09submit" class="style-j2nyu3gksubmit" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z09.$wrapper.1.$submit">Enviar</button>
+													</div>
+												</div>
+											</div>
+											<div style="position: absolute; top: 1914px; height: 728px; width: 1349px; left: -185px;" class="bgis3" id="ibglzgda"
+											 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibglzgda">
+												<div data-type="bgimage" id="ibglzgdabg" class="bgis3bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibglzgda.$bg"
+												 data-image-css="{&quot;backgroundSize&quot;:&quot;auto&quot;,&quot;backgroundRepeat&quot;:&quot;repeat&quot;,&quot;backgroundPosition&quot;:&quot;center center&quot;}"
+												 style="background-size: auto; background-repeat: repeat; background-position: center center; background-image: url(&quot;https://static.wixstatic.com/media/1d5057_df1cbd8f08be42fa833cf413b6126ae3~mv2_d_1641_1255_s_2.png/v1/crop/w_1349,h_728,al_c/1d5057_df1cbd8f08be42fa833cf413b6126ae3~mv2_d_1641_1255_s_2.png&quot;);"></div>
+												<div id="ibglzgdainlineContent" class="bgis3inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibglzgda.$inlineContent"></div>
+											</div>
+											<div style="position: absolute; top: 625px; height: 757px; width: 1349px; left: -185px;" class="bgis1" id="ibgkjnf8"
+											 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibgkjnf8">
+												<div data-type="bgimage" id="ibgkjnf8bg" class="bgis1bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibgkjnf8.$bg"
+												 data-image-css="{&quot;backgroundSize&quot;:&quot;auto&quot;,&quot;backgroundRepeat&quot;:&quot;repeat&quot;,&quot;backgroundPosition&quot;:&quot;center center&quot;}"
+												 style="background-size: auto; background-repeat: repeat; background-position: center center; background-image: url(&quot;https://static.wixstatic.com/media/1d5057_a0fa111c0d96433ca3413e5dbcae7442~mv2.png/v1/crop/w_1349,h_757,al_c/1d5057_a0fa111c0d96433ca3413e5dbcae7442~mv2.png&quot;);"></div>
+												<div id="ibgkjnf8inlineContent" class="bgis1inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibgkjnf8.$inlineContent"></div>
+											</div>
+											<div style="position: absolute; top: 3401px; height: 744px; width: 1349px; left: -185px;" class="bgis4" id="ibi2jj7j"
+											 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibi2jj7j">
+												<div data-type="bgimage" id="ibi2jj7jbg" class="bgis4bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibi2jj7j.$bg"
+												 data-image-css="{&quot;backgroundSize&quot;:&quot;auto&quot;,&quot;backgroundRepeat&quot;:&quot;repeat&quot;,&quot;backgroundPosition&quot;:&quot;center center&quot;}"
+												 style="background-size: auto; background-repeat: repeat; background-position: center center; background-image: url(&quot;https://static.wixstatic.com/media/1d5057_e336a789b461432396345644a2f3ab79~mv2.png/v1/crop/w_1349,h_744,al_c/1d5057_e336a789b461432396345644a2f3ab79~mv2.png&quot;);"></div>
+												<div id="ibi2jj7jinlineContent" class="bgis4inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibi2jj7j.$inlineContent"></div>
+											</div>
+											<div style="left: 0px; position: absolute; top: 625px; height: 20px; width: 0px;" class="Anchor_1" id="ibgkc6w1"
+											 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibgkc6w1"></div>
+											<div style="left: 0px; position: absolute; top: 1382px; height: 21px; width: 0px;" class="Anchor_1" id="ibgkceo0"
+											 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibgkceo0"></div>
+											<div style="left: 0px; position: absolute; top: 1914px; height: 20px; width: 0px;" class="Anchor_1" id="ibgkch4a"
+											 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibgkch4a"></div>
+											<div style="left: 0px; position: absolute; top: 3422px; height: 20px; width: 0px;" class="Anchor_1" id="ibgkck5y"
+											 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibgkck5y"></div>
+											<div style="left: 63px; width: 855px; position: absolute; top: 716px;" class="txtNew" id="ibgkmlo8" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibgkmlo8">
+												<h3 class="font_3" style="font-size:100px; line-height:1em;"><span style="font-size:100px;"><span style="font-weight:normal;"><span style="font-family:fredericka the great,fantasy;"><span style="color:#000000;">O GRANDE</span></span>
+													</span>
+													</span>
+												</h3>
+
+												<h3 class="font_3" style="font-size:100px; line-height:1em;"><span style="color:#F7E07C;"><span style="font-size:100px;"><span style="font-weight:normal;"><span style="font-family:fredericka the great,fantasy;">DIA</span></span>
+													</span>
+													</span>
+												</h3>
+											</div>
+											<div style="left: 66px; width: 383px; position: absolute; top: 965px;" class="txtNew" id="ibgl9hfp" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibgl9hfp">
+												<h5 class="font_5"><span class="color_23"><span style="letter-spacing:0.05em;">&nbsp; &nbsp; &nbsp; &nbsp; </span></span><span style="color:#000000;"><span style="letter-spacing:0.05em;">Quando</span></span>
+												</h5>
+
+												<p class="font_7" style="font-size:20px;"><span style="font-size:20px;"><span style="font-family:sacramento,cursive;"><span class="wixGuard">​</span></span>
+													</span>
+												</p>
+
+												<p class="font_7" style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;"><span style="font-size:20px;"><span class="color_15"><span style="letter-spacing:0.05em;">Sábado, 08&nbsp;de setembro de&nbsp;2018</span></span>
+													</span>
+													</span>
+												</p>
+
+												<p class="font_7" style="font-size:20px; line-height:1.3em;">&nbsp;</p>
+
+												<p class="font_7" style="font-size:20px; line-height:1.3em;"><span style="font-family:belinda-w00-regular,script;"><span style="font-size:20px;"><span class="color_15"><span style="letter-spacing:0.05em;">Recepção e cerimônia:&nbsp; 16:30</span></span>
+													</span>
+													</span>
+												</p>
+
+												<p class="font_7" style="font-size:20px; line-height:1.3em;"><span style="font-family:belinda-w00-regular,script;"><span style="font-size:20px;"><span class="color_15"><span style="letter-spacing:0.05em;">Quinta das Bromélias.</span></span>
+													</span>
+													</span>
+												</p>
+
+												<p class="font_8" style="font-size:20px; line-height:1.3em;">&nbsp;</p>
+
+												<p class="font_8" style="font-size:20px; line-height:1.3em;"><span style="color:#000000;"><span style="font-family:belinda-w00-regular,script;"><span style="font-size:20px;">P.S. Meninas, cuidado com o salto, a cerimônia é em local com chão gramado.&nbsp;</span></span>
+													</span>
+												</p>
+
+												<p class="font_8">&nbsp;</p>
+											</div>
+											<div style="left: 561px; width: 379px; position: absolute; top: 1016px;" class="txtNew" id="ibgle71n" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibgle71n">
+												<h5 class="font_5"><span class="color_23"><span style="letter-spacing:0.05em;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="color:#000000;"><span style="letter-spacing:0.05em;">Onde</span></span>
+												</h5>
+
+												<p class="font_7">&nbsp;</p>
+
+												<p class="font_7" style="font-size:20px; line-height:1.3em;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;"><span class="color_15"><span style="letter-spacing:0.05em;">Av. Dona Maria Franco Salgado, 838 - Jardim Atibaia, Campinas (Distrito - Sousas) - SP</span></span>
+													</span>
+													</span>
+												</p>
+
+												<p class="font_8" style="line-height:1.3em;">&nbsp;</p>
+
+												<p class="font_7" style="line-height:1.3em;">&nbsp;</p>
+											</div>
+											<div tabindex="0" style="left: 66px; width: 850px; position: absolute; top: 1447px; height: 404px;" class="gm1"
+											 id="ibglrdli" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibglrdli">
+												<div id="ibglrdlimapContainer" class="gm1mapContainer" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibglrdli.$mapContainer">
+													<iframe width="100%" height="100%" frameborder="0" scrolling="no" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibglrdli.$mapContainer.0"
+													 src="./comquemseama-2.0_files/googleMap.html"></iframe>
+												</div>
+											</div>
+											<div style="left: 61px; width: 812px; position: absolute; top: 1997px;" class="txtNew" id="ibi20089" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibi20089">
+												<h4 class="font_4" style="line-height:1em;"><span style="color:#0B114D;"><span style="font-weight:normal;"><span style="font-family:fredericka the great,fantasy;"><span style="letter-spacing:0em;">COMO CHEGAR</span></span>
+													</span>
+													</span>
+												</h4>
+
+												<h4 class="font_4" style="line-height:1em;"><span style="font-weight:normal;"><span style="font-family:fredericka the great,fantasy;"><span style="letter-spacing:0em;">LÁ</span></span>
+													</span>
+												</h4>
+											</div>
+											<div style="left: 528px; width: 410px; position: absolute; top: 2187px;" class="txtNew" id="ibi21cb2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibi21cb2">
+												<h5 class="font_5"><span class="color_16"><span style="letter-spacing:0.05em;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="color:#FFFFFF;"><span style="letter-spacing:0.05em;"> Acomodação</span></span>
+												</h5>
+
+												<p class="font_7">&nbsp;</p>
+
+												<ul class="font_7" style="color:rgb(11, 17, 77); font-family:belinda-w00-regular,script; font-size:20px; font-weight:bold;">
+													<li>
+														<p class="font_7" style="font-size:20px;"><span style="color:#0B114D;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;"><span style="font-weight:bold;">Hotel Ibis</span></span>
+															</span>
+															</span>
+														</p>
+													</li>
+												</ul>
+
+												<p class="font_7" style="font-size:20px;"><span style="color:#000000;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;">Avenida Aquidaban, 440,&nbsp;Campinas - SP</span></span>
+													</span>
+												</p>
+
+												<p class="font_7" style="font-size:20px;"><span style="color:#000000;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;">Telefone:&nbsp;(19) 3731-2300</span></span>
+													</span>
+												</p>
+
+												<p class="font_7" style="font-size:20px;"><span style="color:#000000;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;"><span class="wixGuard">​</span></span>
+													</span>
+													</span>
+												</p>
+
+												<ul class="font_7" style="color:rgb(11, 17, 77); font-family:belinda-w00-regular,script; font-size:20px; font-weight:bold;">
+													<li>
+														<p class="font_7" style="font-size:20px;"><span style="color:#0B114D;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;"><span style="font-weight:bold;">Pousada Vill' Atybaia</span></span>
+															</span>
+															</span>
+														</p>
+													</li>
+												</ul>
+
+												<p class="font_7" style="font-size:20px;"><span style="color:#000000;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;">Rua Treze de Maio, 631 - Sousas, Campinas - SP</span></span>
+													</span>
+												</p>
+
+												<p class="font_7" style="font-size:20px;"><span style="color:#000000;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;">Telefone: (19) 3258-4918</span></span>
+													</span>
+												</p>
+
+												<p class="font_7" style="font-size:20px;"><span style="color:#000000;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;"><span class="wixGuard">​</span></span>
+													</span>
+													</span>
+												</p>
+
+												<p class="font_7"><span style="font-family:amatic sc,cursive;"><span style="color:#BA7D84;"><span style="font-size:20px;"><span class="wixGuard">​</span></span>
+													</span>
+													</span>
+												</p>
+											</div>
+											<div style="left: 60px; width: 404px; position: absolute; top: 2232px;" class="txtNew" id="ibi21lvr" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibi21lvr">
+												<h5 class="font_5"><span class="color_16"><span style="letter-spacing:0.05em;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span>
+													<span
+													 style="color:#FFFFFF;"><span style="letter-spacing:0.05em;">Transporte</span></span>
+												</h5>
+
+												<p class="font_7">&nbsp;</p>
+
+												<p class="font_7" style="font-size:20px;"><span style="color:#000000;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;">Se você é um forasteiro em nossa querida Campinas, você terá duas portas de chegada (em caso de não vir de carro), a nossa rodoviária ou nosso aeroporto, chamado </span></span>
+													</span><span style="color:#0B114D;"><span style="font-weight:bold;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;">Viracopos</span></span>
+													</span><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;">. </span></span>
+													</span><span style="color:#000000;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;">Fique atento, pois em caso de vir pelos céus você pode ter a opção de pousar em outro aeroporto, na capital São Paulo, e seguir de lá diretamente para Campinas.&nbsp;<span style="text-decoration:underline;">Mas</span>&nbsp;isso
+													só acontece quando a companhia aérea escolhida é a Azul. Pesquise direitinho tá?&nbsp;</span>
+													</span>
+													</span>
+												</p>
+											</div>
+											<div style="left: 10px; width: 944px; position: absolute; top: 3503px;" class="txtNew" id="ibs2jv1g_0" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibs2jv1g_0">
+												<h4 class="font_4" style="font-size:77px; text-align:center;"><span style="font-size:77px;"><span style="color:#000000;"><span style="font-weight:normal;"><span style="font-family:fredericka the great,fantasy;">LISTA DE&nbsp;</span></span>
+													</span><span style="color:#0B114D;"><span style="font-weight:normal;"><span style="font-family:fredericka the great,fantasy;">PRESENTES</span></span>
+													</span>
+													</span>
+												</h4>
+											</div>
+											<div tabindex="0" role="button" style="left: 313px; width: 355px; position: absolute; top: 4543px; height: 84px;"
+											 class="style-j5skxoe5" id="icyhtys3" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhtys3">
+												<style type="text/css">
+													.style-j5skxoe5 svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #31635D;
+														fill-opacity: 1;
+														stroke: rgba(255, 255, 255, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j5skxoe5 svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j5skxoe5 a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="7.899997234344482 82.19999694824219 184.3000030517578 37"
+												 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+													<g>
+														<path d="M170.2 106.7c.4-5.1 1.6-10.8 1.1-15.9-.4-4.1-3.1-3.5-6.6-3.7-11.6-.6-23.1-1.8-34.7-2.5-21.5-1.4-42.9-2.4-64.4-1.8-11.7.3-23.4 1-35.1 2.2-.4 0-.6.2-.7.5 0 .1-.1.2 0 .4.4 6.6.5 13.3.9 19.9 0 .5.4 1 1 1 10.5.4 21.1.9 31.7.9 5.6 0 11.1-.6 16.7-1 5.7-.3 11.5-.2 17.3 0 11.8.5 23.6 1.4 35.4 1.5 12.1.1 24.3-.2 36.4-.6.5 0 .9-.3 1-.9z"></path>
+														<path d="M192 96.2c.2-.6-.3-1.3-.9-1.3-3.8.1-7.3-.5-11.1-1.2-2.3-.4-4.3-.4-6.5.6-.7.3-.6 1-.3 1.4-.2 4.4-.6 8.7-1.1 13-3.7.2-7.5.4-11.2.6-.6 0-.9.4-1 1-.2 1.6-.4 3.2-.3 4.8 0 .5.4 1 1 1 10.2-.4 20.4 3.1 30.4-.3.6-.2 1-.8.6-1.4-1.8-3.5-4.1-6.6-7-9.3 3.4-1.9 5.9-5 7.4-8.9z"></path>
+														<path d="M42 109c-3.2-.4-6.2.4-9.4.6-1.4.1-3.1.5-3.7-.7-.3-.6-.2-1.8-.3-2.4-.5-4.4-.7-9-1.7-13.3-.1-.6-.7-.8-1.2-.7h-.4c-4.1.5-8.2 1-12.3 1.4-1.5.1-4.9.1-5 2.5-.1 1.9 2.7 3.1 4 4.1 1.4 1.1 2.8 2.6 4.5 3.4-2.3 2.9-5 5.4-7.6 8-.6.7-.2 1.6.6 1.7 10.9 1.5 21.9 2.9 32.7.3.4-.1.7-.5.8-.9 0-1 .1-2 .1-3-.1-.6-.5-.9-1.1-1z"></path>
+													</g>
+												</svg>
+											</div>
+											<div style="left: 124px; width: 721px; position: absolute; top: 3728px;" class="txtNew" id="ibs3nl5b" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibs3nl5b">
+												<p class="font_7" style="text-align:center; font-size:22px;"><span style="color:#000000;"><span style="font-size:22px;"><span style="font-family:belinda-w00-regular,script;">Uma lista de &nbsp;presentes&nbsp;foi&nbsp;feita&nbsp;para facilitar o processo para quem desejar nos mimar um pouquinho. &nbsp;Mas não se engane,&nbsp;sua presença é nosso melhor presente.</span></span>
+													</span>
+												</p>
+											</div>
+											<div style="left: 0px; position: absolute; top: 4146px; height: 20px; width: 0px;" class="Anchor_1" id="ibszc8bx"
+											 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibszc8bx"></div>
+											<div style="left: 202px; width: 576px; position: absolute; top: 4658px;" class="txtNew" id="ibt90z0a" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z0a">
+												<p class="font_7" style="text-align:center; font-size:20px;"><span style="font-size:20px;"><span style="font-family:belinda-w00-regular,script;"><span style="color:#000000;">Não&nbsp;se acanhe... estamos sempre disponíveis para responder qualquer pergunta ou fornecer qualquer informação.</span></span>
+													</span>
+												</p>
+											</div>
+											<div style="left: 209px; width: 561px; position: absolute; top: 4244px;" class="txtNew" id="ibt90z0b_1" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibt90z0b_1">
+												<h4 class="font_4" style="text-align:center;"><span style="font-weight:normal;"><span style="color:#000000;"><span style="font-family:fredericka the great,fantasy;">RSVP</span></span>
+													</span>
+												</h4>
+											</div>
+											<div style="left: 654px; width: 163px; position: absolute; top: 1289px;" class="txtNew" id="ibglg65b" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$ibglg65b">
+												<p class="font_7"><span style="color:#000000;"><a href="http://editor.wix.com/html/editor/web/renderer/external_preview/document/6fe72ea7-a69b-4ac9-9634-66310321447b?metaSiteId=65686e1f-e815-4768-a947-1d7965d73d90" target="_self" data-anchor="c17sp">VEJA O MAPA</a></span></p>
+											</div>
+											<div tabindex="0" role="button" style="left: 583px; width: 99px; position: absolute; transform: rotate(328deg) translateZ(0px); top: 673px; height: 100px;"
+											 class="style-j2nmvyja" data-angle="328" id="icyhcgiv" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhcgiv">
+												<style type="text/css">
+													.style-j2nmvyja svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #F7E07C;
+														fill-opacity: 1;
+														stroke: rgba(11, 17, 77, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j2nmvyja svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j2nmvyja a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="77.19999694824219 49 45.49999237060547 102.00001525878906"
+												 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+													<g>
+														<path d="M84.7 69.5c3.8-5.5 8.6-9.8 14.3-12.7 1.7-.9 2.6-2.8 2.1-4.7-.5-1.8-1.9-3.1-3.6-3.1-.6 0-1.2.2-1.8.5-7.2 3.7-13.1 8.8-17.5 15.2-.9 1.3-1 2.8-.3 4.2.7 1.4 2.2 2.3 3.7 2.3 1.3 0 2.4-.6 3.1-1.7z"></path>
+														<path d="M119.1 97.4c-8.4-1.3-16.8-1.4-25.2-.2-2.1.3-3.6 2.1-3.4 4.3.2 2.2 1.8 3.8 3.9 3.8h.6c7.7-1.1 15.3-1 23 .2.2 0 .5.1.7.1 2.1 0 3.7-1.6 3.9-3.7.1-2.4-1.3-4.2-3.5-4.5z"></path>
+														<path d="M85 134.8c-2.4-.5-4.5 1.2-4.7 3.6-.2 2.1 1.1 3.9 3.2 4.3 5.7 1 10.5 3.4 14.8 7.3.8.7 1.7 1 2.6 1 1.6 0 3.2-1.1 3.8-2.7.6-1.5.2-3.2-1.1-4.3-5.2-4.8-11.5-7.9-18.6-9.2z"></path>
+													</g>
+												</svg>
+											</div>
+											<div tabindex="0" role="button" style="left: 66px; width: 57px; position: absolute; top: 952px; height: 57px;"
+											 class="style-j2nmekna" id="icyhd0mv" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhd0mv">
+												<style type="text/css">
+													.style-j2nmekna svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #F7E07C;
+														fill-opacity: 1;
+														stroke: rgba(255, 255, 255, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j2nmekna svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j2nmekna a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="36.099998474121094 36 127.60001373291016 129.5" preserveAspectRatio="xMidYMid meet"
+												 style="stroke-width: 0px;">
+													<g>
+														<path d="M157 66.8C145.8 46 116.4 36 96.1 36c-20.3 0-38.4 12-45 21.2-6.6 9.2-10.3 20.1-12.5 31.2-2.5 13-1.7 44.1 16.5 60 19.5 17.1 40.7 17.1 58 14 25.2-4.5 42-29.5 47.5-54.4 2.9-13.8 3.1-28.8-3.6-41.2zm-22.3 27.6l-24.6 9c-.3 1.1-.8 2.1-1.5 3.1-1.8 2.4-4.7 3.9-7.8 3.9-1.1 0-2.2-.2-3.3-.6-3.5-1.2-6.2-4.3-6.9-7.8-.7-3 .3-6.1 2.6-8.3 1.4-1.4 3.3-2.3 5.2-2.7l16.7-38.2c.8-1.8 2.3-2.9 4.2-2.9 1.8 0 3.6 1 4.6 2.6 1 1.5 1.2 3.4.4 5.1l-15.9 36.3c.1.1.3.1.4.2l22.3-8.1c.5-.2 1.1-.3 1.6-.3 2.3 0 4.3 1.7 4.7 4 .3 2.2-.7 4-2.7 4.7z"></path>
+													</g>
+												</svg>
+											</div>
+											<div tabindex="0" role="button" style="left: 561px; width: 62px; position: absolute; top: 995px; height: 62px;"
+											 class="style-j2nmfacr" id="icyhdxat" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhdxat">
+												<style type="text/css">
+													.style-j2nmfacr svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #F7E07C;
+														fill-opacity: 1;
+														stroke: rgba(255, 255, 255, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j2nmfacr svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j2nmfacr a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="-545.2000122070312 530.800048828125 91.99996948242188 139.70001220703125"
+												 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+													<g>
+														<path d="M-471.7 593.9c-4 9.6-14.1 16.6-24.6 16.2-5.9-.2-11.6-2.7-16.4-6.1-3.8-2.7-7.2-6.1-9.4-10.3-6-11.5-2-26.7 8.3-35.5 10.2-8.8 31.7-2.3 37.9 6.1 6.3 8.4 8.2 20 4.2 29.6m18.3-14.6c.2-17.1-7.4-35.4-22.6-43.3-8.4-4.3-18.2-5.2-27.6-4.1-14.1 1.6-28.6 8-35.7 20.3-3.6 6.3-5 13.8-5.3 21.1-.6 18.8 6.1 37.3 15.9 53.3 9.8 16.1 26.1 37.2 35.3 43.9 7.6-7.2 18.7-26 26.1-42.1 7.1-15.6 13.7-31.9 13.9-49.1"></path>
+													</g>
+												</svg>
+											</div>
+											<div tabindex="0" role="button" style="left: 592px; width: 41px; position: absolute; top: 1286px; height: 25px;"
+											 class="style-j2nmgxpk" id="icyhf7my" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhf7my">
+												<style type="text/css">
+													.style-j2nmgxpk svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #000000;
+														fill-opacity: 1;
+														stroke: rgba(255, 255, 255, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j2nmgxpk svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j2nmgxpk a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<a href="http://editor.wix.com/html/editor/web/renderer/external_preview/document/6fe72ea7-a69b-4ac9-9634-66310321447b?metaSiteId=65686e1f-e815-4768-a947-1d7965d73d90"
+												 target="_self" data-keep-roots="true" data-anchor="c17sp" tabindex="-1">
+													<svg xmlns="http://www.w3.org/2000/svg" viewBox="69.80000305175781 83.50000762939453 60.49998474121094 32.899993896484375"
+													 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+														<g>
+															<path d="M129 90.1c-8.4 8.8-17.7 16.8-26.7 24.5l-.9.8c-.8.7-1.7 1-2.6 1s-1.8-.4-2.5-1.1c-8.3-8.8-16.4-17.3-25-25-1.2-1-1.5-2.5-1-4 .6-1.5 2.1-2.6 3.7-2.6.9 0 1.7.3 2.4 1 8.2 7.3 16 15.5 22.8 22.7 7.9-6.8 16.7-14.4 24.6-22.8.7-.7 1.6-1.1 2.5-1.1 1.4 0 2.8 1 3.5 2.4.5 1.5.3 3.1-.8 4.2z"></path>
+														</g>
+													</svg>
+												</a>
+											</div>
+											<div tabindex="0" role="button" style="left: 6px; width: 99px; position: absolute; transform: rotate(234deg) translateZ(0px); top: 1940px; height: 100px;"
+											 class="style-j2nolguy1" data-angle="234" id="icyhfood" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhfood">
+												<style type="text/css">
+													.style-j2nolguy1 svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #F7E07C;
+														fill-opacity: 1;
+														stroke: rgba(255, 255, 255, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j2nolguy1 svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j2nolguy1 a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="77.19999694824219 49 45.49999237060547 102.00001525878906"
+												 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+													<g>
+														<path d="M84.7 69.5c3.8-5.5 8.6-9.8 14.3-12.7 1.7-.9 2.6-2.8 2.1-4.7-.5-1.8-1.9-3.1-3.6-3.1-.6 0-1.2.2-1.8.5-7.2 3.7-13.1 8.8-17.5 15.2-.9 1.3-1 2.8-.3 4.2.7 1.4 2.2 2.3 3.7 2.3 1.3 0 2.4-.6 3.1-1.7z"></path>
+														<path d="M119.1 97.4c-8.4-1.3-16.8-1.4-25.2-.2-2.1.3-3.6 2.1-3.4 4.3.2 2.2 1.8 3.8 3.9 3.8h.6c7.7-1.1 15.3-1 23 .2.2 0 .5.1.7.1 2.1 0 3.7-1.6 3.9-3.7.1-2.4-1.3-4.2-3.5-4.5z"></path>
+														<path d="M85 134.8c-2.4-.5-4.5 1.2-4.7 3.6-.2 2.1 1.1 3.9 3.2 4.3 5.7 1 10.5 3.4 14.8 7.3.8.7 1.7 1 2.6 1 1.6 0 3.2-1.1 3.8-2.7.6-1.5.2-3.2-1.1-4.3-5.2-4.8-11.5-7.9-18.6-9.2z"></path>
+													</g>
+												</svg>
+											</div>
+											<div tabindex="0" role="button" style="left: 61px; width: 78px; position: absolute; top: 2226px; height: 52px;"
+											 class="style-j2nol3kj" id="icyhgk1i" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhgk1i">
+												<style type="text/css">
+													.style-j2nol3kj svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #F7E07C;
+														fill-opacity: 1;
+														stroke: rgba(255, 255, 255, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j2nol3kj svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j2nol3kj a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="20.499996185302734 53.400001525878906 157.60000610351562 93.39998626708984"
+												 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+													<g>
+														<path d="M172.7 96.5c-4.2-4.3-11.7-3.3-17.8-2-.9-13.7.2-29.7-13.2-37.3-6.2-3.6-13.8-3.5-20.8-3.6-12.7-.2-25.5.1-38.2.9-10.5.7-20.9 1.8-31.2 3.8-7.4 1.5-21.2 2.6-26.6 8.7-4.4 5-1.3 14.6-.6 20.5 1.4 13.5 2.9 26.9 4.3 40.4.2 2 1.5 3.2 3.1 3.7.7.9 1.7 1.6 3.2 1.7 3.5.1 6.9.1 10.4.2 0-3.4.6-6.9 2-9.9 1.8-4.7 5.5-8.4 10.3-10.4 1.8-.8 3.8-1.2 5.9-1.5 3.1-.6 6.3-.3 9 .8 6.9 2 12.1 7 14.1 13.4.7 2.3 1 4.7.8 7.1 10.8-.4 21.5-1 32.2-1.8-1.3-3.6-1.3-7.4.1-10.9 2.6-6.9 9.8-12.6 18.5-14.5 1.2-.3 2.4-.2 3.6.1 2.2-.2 4.4 0 6.4.5 5.9 1.5 10.4 5.4 12.7 11 1.2 2.9 1.6 6.1 1.5 9.3 4.1-.5 8.1-1.1 12.2-1.7 1.7-.3 3-2.3 3-4-.1-7.2.5-19.1-4.9-24.5zM51.1 98.7c-3.3 1.2-7.3 1.6-11.1 2.1-1.9-7.3-3.1-14.7-3.7-22.2 3.6-1.4 7.4-3 11-3.7 3.6-.7 3.9-.5 5.4 3 .9 2 1.3 4.7 1.8 6.8 1.4 5.8 3.8 11.2-3.4 14zm30.5-6.3c-3.3.5-7.3 1.2-10.8 1.2-1.2-3-1.7-6.8-2.5-9.5-1-3.3-2.9-7.4-2.7-10.9.1-1.5-.6-2.6-1.5-3.3 1.5-2.8 11.3-3.1 12.7-2.8 6.4 1.3 5.9 8.1 6.6 13.2.3 2.3.6 4.5.9 6.8.4 3.9 1.3 4.7-2.7 5.3zm32.9-2.1c-1 .7-8 .4-9.7.5-4.4.4-5.4 1.5-6.6-3.2-1.6-6.5-2.7-13-3.4-19.7 6.7-1.7 15.8-3.5 18.5 3.5 1.3 3.4 1.6 7.2 1.6 10.8 0 1.7.1 7.8-.4 8.1zm27.3-.8c-2 1-6.7-.3-9.1.1-1.8.3-3.4 1-5.2 1.3-.7.1-1.1.3-1.3.5.1-.2.1-.5 0-1.1-.6-4.4-.2-9.2-.3-13.6-.1-4-1.7-10.7 3.1-11.8 3.4.5 6.6 1.6 9 3.9 3.7 3.3 8.8 18.2 3.8 20.7zm12.2 30.6c1.9 4.7 1.2 10.9-1.8 15.8-2.1 3.4-4.9 5.1-8.5 5.1-5.2 0-11.5-3.6-15.4-8.8-2.4-3.2-3-6.5-1.9-9.7 1.7-4.6 7-8.5 13.3-9.9l.9.4 1-.1c1.6-.2 3.3-.1 4.7.3 3.7 1.1 6.3 3.4 7.7 6.9zm-75.4 8.2c1.8 6-1.4 11.3-5 14.3l-.5.5c-1.8 2.2-4.8 3.4-7.7 3.3h-.6c-3.9.4-7-1.1-9.1-4.4-2.7-4.2-3.1-10.7-1-15.3l.1-.3c1-2.6 3-4.6 5.8-5.8 1.1-.5 2.4-.8 3.8-.9l.5-.1c.6-.1 1.1-.2 1.7-.2 1 0 1.9.2 2.8.6l.5.2c4.3 1.3 7.5 4.3 8.7 8.1z"></path>
+													</g>
+												</svg>
+											</div>
+											<div tabindex="0" role="button" style="left: 528px; width: 71px; position: absolute; top: 2175px; height: 57px;"
+											 class="style-j2nokdo6" id="icyhhcw2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhhcw2">
+												<style type="text/css">
+													.style-j2nokdo6 svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #F7E07C;
+														fill-opacity: 1;
+														stroke: rgba(255, 255, 255, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j2nokdo6 svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j2nokdo6 a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="20.600000381469727 37.599998474121094 160.20001220703125 124.59998321533203"
+												 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+													<g>
+														<path d="M47.9 121.3c-6.6-13.6-7.4-29.6-7.4-29.6s5.3 5.2 12.5 20.1c7.2 15 7.9 28.5 7.9 28.5s-6.4-5.4-13-19M167.2 103c-2.5-20.2-7.4-41.2-25.5-53 1.7-4 2.2-9-3-10.7-5.4-1.7-8.8 2.6-10.7 6.9-16.8-4.1-34.7-4.3-49.9 1.2l-.9.3c-8 3-15.2 7.6-21.1 13.9-6.3 4.6-12.3 9.5-18.2 14.7-4.8-2.5-12.4-5.2-14.8 1.1C20.6 83.9 26.7 87 32 88c-.5 21.3 10.4 37.1 20.4 55.3 2 3.7 1.3 7.5 1.8 11.4.1.8-.1 1.5.2 2.4.5 1.8 1.4 3.5 3.5 3.9 5.4 1.2 11-6.2 13.8-10.7 13.4 1.9 25.8-2.5 38.1-7.5 13.5-5.5 26.5-12 38.9-19.5 5.4-3.3 11.1-9.2 17.6-8.4 3.5.4 7 2.3 9.7-1.2 4.8-6.7-3.2-10.2-8.8-10.7"></path>
+													</g>
+												</svg>
+											</div>
+											<div tabindex="0" role="button" style="left: 890px; width: 99px; position: absolute; transform: rotate(319.601deg) translateZ(0px); top: 3449px; height: 100px;"
+											 class="style-j2nns3pr1" data-angle="319.6012946450045" id="icyhr11f" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhr11f">
+												<style type="text/css">
+													.style-j2nns3pr1 svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #F7E07C;
+														fill-opacity: 1;
+														stroke: rgba(255, 255, 255, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j2nns3pr1 svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j2nns3pr1 a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="77.19999694824219 49 45.49999237060547 102.00001525878906"
+												 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+													<g>
+														<path d="M84.7 69.5c3.8-5.5 8.6-9.8 14.3-12.7 1.7-.9 2.6-2.8 2.1-4.7-.5-1.8-1.9-3.1-3.6-3.1-.6 0-1.2.2-1.8.5-7.2 3.7-13.1 8.8-17.5 15.2-.9 1.3-1 2.8-.3 4.2.7 1.4 2.2 2.3 3.7 2.3 1.3 0 2.4-.6 3.1-1.7z"></path>
+														<path d="M119.1 97.4c-8.4-1.3-16.8-1.4-25.2-.2-2.1.3-3.6 2.1-3.4 4.3.2 2.2 1.8 3.8 3.9 3.8h.6c7.7-1.1 15.3-1 23 .2.2 0 .5.1.7.1 2.1 0 3.7-1.6 3.9-3.7.1-2.4-1.3-4.2-3.5-4.5z"></path>
+														<path d="M85 134.8c-2.4-.5-4.5 1.2-4.7 3.6-.2 2.1 1.1 3.9 3.2 4.3 5.7 1 10.5 3.4 14.8 7.3.8.7 1.7 1 2.6 1 1.6 0 3.2-1.1 3.8-2.7.6-1.5.2-3.2-1.1-4.3-5.2-4.8-11.5-7.9-18.6-9.2z"></path>
+													</g>
+												</svg>
+											</div>
+											<div tabindex="0" role="button" style="left: 453px; width: 63px; position: absolute; top: 3633px; height: 63px;"
+											 class="style-j2nykvwu1" id="icyhrt7d" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhrt7d">
+												<style type="text/css">
+													.style-j2nykvwu1 svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #000000;
+														fill-opacity: 1;
+														stroke: rgba(255, 255, 255, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j2nykvwu1 svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j2nykvwu1 a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="48.49999237060547 35.79999923706055 103.00000762939453 128.40000915527344"
+												 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+													<g>
+														<path d="M151.5 93.6c0 .7-.5 1.4-1.1 1.5-33 7.1-67-2.8-99.9 5.3-.9.2-2-.5-2-1.5.2-5.1.4-10.3.5-15.4.1-1.8-.4-4.2 1.5-5.1.4-.2.8-.2 1.2-.1 6.8-1.7 14.1-2.2 21.1-2.5 8.4-.4 16.7-.6 25.1-1.2 4.3-.3 8.3.6 12.6 1 3.7.3 7.4-.1 11.1-.5 8.9-.9 18.1.8 26.8-1.5 1.1-.3 1.8.5 2 1.5.7 6 1.1 12.2 1.1 18.5zm-5.5 7.3c0-.8-.7-1.6-1.5-1.6-7.4 0-14.8 1-22.2 1.4-7.4.4-14.8.2-22.3-.2-7.1-.4-14.2-.8-21.3-.8-3.8 0-7.7.2-11.5.5-4 .4-8.7 1.8-12.6 1.4-.8-.4-1.9.3-2.1 1.2-.1.5-.1 1 .2 1.3.2.9-.4 2.7-.5 3.5-.3 2.6-.6 5.2-.9 7.9-.4 4.9-.7 9.9-.8 14.8-.2 10.2.4 20.4 1.7 30.5.1.8.6 1.6 1.5 1.6 3.9-.2 7.5.8 11.4 1.3 3.6.5 7.2.2 10.8 0 7.6-.5 15.2-.8 22.9-1 15.1-.3 30.1-.5 45.1-2.7.6-.1 1.2-.9 1.1-1.5-1.2-19.2 1.6-38.4 1-57.6zM73.9 60.7c-2.7-3.8-4.6-8.6-3.9-13.3.7-4.7 4.2-9.1 8.9-9.7 5.4-.7 10 3.6 13.3 8 3.2 4.2 5.8 8.8 7.8 13.7-.1-3.8 1.5-7.6 3.7-10.7 2.2-3.1 5.1-5.7 8-8.1 1.9-1.6 4-3.2 6.3-4 2.4-.8 5.1-.8 7.2.7 1.8 1.3 2.8 3.4 3.5 5.6 1 3 1.8 6.1 1.2 9.2-.7 3.8-3.4 6.9-6.2 9.4-8.1 7.1-18.7 11.1-29.4 11l.5.2c-8.3-.8-16.1-5.2-20.9-12zm32 3c1.1.1 2.2-.2 3.2-.7 2.9-1.2 5.6-3 7.9-5.2 1.3-1.2 2.4-2.5 3.1-4.2.7-1.6.8-3.5 0-5.1-.3-.6-.8-1.2-1.4-1.5-.7-.3-1.5-.3-2.3-.2-2 .3-3.9 1.5-5.3 3s-2.5 3.3-3.3 5.2c-1.2 2.8-2.1 5.7-1.9 8.7zm-25.3-5.6c1.2 1.8 3 3.3 4.9 4.4 2.8 1.6 6.1 2.6 9.1 1.6-.2.1-.4.1-.6.2h.8C92.2 59 88.7 54.2 84.5 50c-.5-.5-1.1-1-1.7-1.2-1.6-.4-3.1 1.2-3.5 2.9-.5 2.2.1 4.6 1.3 6.4z"></path>
+													</g>
+												</svg>
+											</div>
+											<div tabindex="0" role="button" style="left: 302px; width: 99px; position: absolute; transform: rotate(234deg) translateZ(0px); top: 4186px; height: 100px;"
+											 class="style-j2nyn4uu" data-angle="234" id="icyhthmi" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$icyhthmi">
+												<style type="text/css">
+													.style-j2nyn4uu svg {
+														width: 100%;
+														height: 100%;
+														position: absolute;
+														top: 0;
+														right: 0;
+														bottom: 0;
+														left: 0;
+														margin: auto;
+														fill: #F7E07C;
+														fill-opacity: 1;
+														stroke: rgba(255, 255, 255, 1);
+														stroke-width: 0px;
+													}
+
+													.style-j2nyn4uu svg * {
+														vector-effect: non-scaling-stroke;
+													}
+
+													.style-j2nyn4uu a {
+														display: block;
+														height: 100%;
+													}
+												</style>
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="77.19999694824219 49 45.49999237060547 102.00001525878906"
+												 preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
+													<g>
+														<path d="M84.7 69.5c3.8-5.5 8.6-9.8 14.3-12.7 1.7-.9 2.6-2.8 2.1-4.7-.5-1.8-1.9-3.1-3.6-3.1-.6 0-1.2.2-1.8.5-7.2 3.7-13.1 8.8-17.5 15.2-.9 1.3-1 2.8-.3 4.2.7 1.4 2.2 2.3 3.7 2.3 1.3 0 2.4-.6 3.1-1.7z"></path>
+														<path d="M119.1 97.4c-8.4-1.3-16.8-1.4-25.2-.2-2.1.3-3.6 2.1-3.4 4.3.2 2.2 1.8 3.8 3.9 3.8h.6c7.7-1.1 15.3-1 23 .2.2 0 .5.1.7.1 2.1 0 3.7-1.6 3.9-3.7.1-2.4-1.3-4.2-3.5-4.5z"></path>
+														<path d="M85 134.8c-2.4-.5-4.5 1.2-4.7 3.6-.2 2.1 1.1 3.9 3.2 4.3 5.7 1 10.5 3.4 14.8 7.3.8.7 1.7 1 2.6 1 1.6 0 3.2-1.1 3.8-2.7.6-1.5.2-3.2-1.1-4.3-5.2-4.8-11.5-7.9-18.6-9.2z"></path>
+													</g>
+												</svg>
+											</div>
+											<div style="left: 70px; width: 848px; position: absolute; top: 4364px;" class="txtNew" id="comp-iyi0z8bu" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyi0z8bu">
+												<p class="font_7" style="text-align:center; font-size:22px;"><span style="font-size:22px;"><span style="font-family:belinda-w00-regular,script;"><span style="color:#000000;">Confirme sua presença até dia </span>
+													<span
+													 style="color:#0B114D;"><span style="font-weight:bold;">08.08.2018</span></span><span style="color:#000000;">, clicando no botão abaixo.&nbsp;</span></span>
+														</span>
+												</p>
+
+												<p class="font_7" style="font-size:22px; text-align:center;"><span style="font-size:22px;"><span style="font-family:belinda-w00-regular,script;"><span style="color:#000000;"><span class="wixGuard">​</span></span>
+													</span>
+													</span>
+												</p>
+
+												<p class="font_7" style="font-size:22px; text-align:center;"><span style="font-size:22px;"><span style="font-family:belinda-w00-regular,script;"><span style="color:#000000;">E qual a importância da confirmação de presença?&nbsp;&nbsp;Ela é o guia para o nosso buffet e cerimonial&nbsp;prepararem a festa para quantidade correta&nbsp;de pessoas.&nbsp;Confirme com consciência&nbsp;.&nbsp;</span></span>
+													</span>
+												</p>
+											</div>
+											<div id="comp-iyi159b3" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true"
+											 style="left: 386px; position: absolute; top: 4556px; height: 42px; min-height: 42px; width: 226px;" class="style-j5sghccl"
+											 data-state="desktop shouldUseFlex center" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyi159b3"
+											 data-prev-text="CONFIRME AQUI (em breve)" data-prev-min-width="226" data-prev-width="226">
+												<div id="comp-iyi159b3link" class="style-j5sghccllink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyi159b3.$link"><span id="comp-iyi159b3label" class="style-j5sghccllabel" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyi159b3.$link.$label">CONFIRME AQUI (em breve)</span></div>
+											</div>
+											<div style="left: 109px; width: 763px; position: absolute; top: 4939px;" class="txtNew" id="comp-iyi1goou" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyi1goou">
+												<p class="font_8" style="font-size:25px; text-align:center;"><span style="color:#0B114D;"><span style="font-size:25px;"><span style="font-family:sacramento,cursive;"><span style="font-weight:bold;">Telefones</span></span>
+													</span>
+													</span>
+												</p>
+
+												<p class="font_8" style="font-size:20px;"><span style="font-size:20px;"><span style="font-weight:bold;"><span style="color:#0B114D;"><span style="font-family:amatic sc,cursive;">Sofia: 019 99305-3502 &nbsp; / &nbsp;Bruno: 011 98463-7518 &nbsp;/ &nbsp;Mãe da noiva - Raquel: 019 3258-8499 &nbsp; / &nbsp;Mãe do noivo - Ider: 031 2564-2902</span></span>
+													</span>
+													</span>
+												</p>
+											</div>
+											<div style="left: -461px; position: absolute; top: 2642px; width: 1903px; height: 781px;" data-exact-height="781"
+											 data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2" id="comp-iyiuplj3"
+											 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyiuplj3">
+												<div style="width: 1903px; height: 781px;" id="comp-iyiuplj3link" class="wp2link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyiuplj3.$link">
+													<div id="comp-iyiuplj3img" data-style="" class="wp2img" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyiuplj3.$link.0"
+													 style="position: relative; width: 1903px; height: 781px;">
+														<div class="wp2imgpreloader" id="comp-iyiuplj3imgpreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyiuplj3.$link.0.$preloader"></div><img id="comp-iyiuplj3imgimage" alt="" data-type="image" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyiuplj3.$link.0.$image"
+														 src="./comquemseama-2.0_files/1d5057_bc80737b305d49a7bd36ecbe46953044-mv2_d_5184_3304_s_4_2.webp" style="width: 1903px; height: 781px; object-fit: cover;"></div>
+												</div>
+											</div>
+											<div id="comp-iyizecr9" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true"
+											 style="left: 66px; position: absolute; top: 1271px; height: 39px; min-height: 33px; width: 311px;" class="style-j5sky6e6"
+											 data-state="desktop shouldUseFlex center" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyizecr9"
+											 data-prev-text="Para mais informações clique aqui " data-prev-min-width="237" data-prev-width="311">
+												<div class="style-j5sky6e6_arr style-j5sky6e6_top" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyizecr9.0"></div>
+												<div class="style-j5sky6e6_arr style-j5sky6e6_bottom" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyizecr9.1"></div>
+												<div class="style-j5sky6e6_bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyizecr9.2"></div><a role="button" id="comp-iyizecr9link" class="style-j5sky6e6link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyizecr9.$link"><span id="comp-iyizecr9label" class="style-j5sky6e6label" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-iyizecr9.$link.$label">Para mais informações clique aqui </span></a></div>
+											<div
+											 style="left: -184px; position: absolute; top: 0px; width: 1355px; height: 625px;" data-exact-height="625" data-content-padding-horizontal="0"
+											 data-content-padding-vertical="0" title="" class="wp2" id="comp-j2nmpdat" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nmpdat">
+												<div style="width: 1355px; height: 625px;" id="comp-j2nmpdatlink" class="wp2link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nmpdat.$link">
+													<div id="comp-j2nmpdatimg" data-style="" class="wp2img" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nmpdat.$link.0"
+													 style="position: relative; width: 1355px; height: 625px;">
+														<div class="wp2imgpreloader" id="comp-j2nmpdatimgpreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nmpdat.$link.0.$preloader"></div><img id="comp-j2nmpdatimgimage" alt="" data-type="image" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nmpdat.$link.0.$image"
+														 src="./comquemseama-2.0_files/1d5057_afb59698da5545bf8b5faaa9f865cfec-mv2_d_3632_1692_s_2.png" style="width: 1355px; height: 625px; object-fit: cover;"></div>
+												</div>
+										</div>
+										<div style="left: 741px; position: absolute; transform: rotate(336.059deg) translateZ(0px); top: 733px; width: 122px; height: 181px;"
+										 data-exact-height="181" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2"
+										 data-angle="336.0586495180304" id="comp-j2nmx3fr" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nmx3fr">
+											<div style="width: 122px; height: 181px;" id="comp-j2nmx3frlink" class="wp2link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nmx3fr.$link">
+												<div id="comp-j2nmx3frimg" data-style="" class="wp2img" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nmx3fr.$link.0"
+												 style="position: relative; width: 122px; height: 181px;">
+													<div class="wp2imgpreloader" id="comp-j2nmx3frimgpreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nmx3fr.$link.0.$preloader"></div><img id="comp-j2nmx3frimgimage" alt="" data-type="image" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nmx3fr.$link.0.$image"
+													 src="./comquemseama-2.0_files/1d5057_27e15252d908415db817c08b464701da-mv2.png" style="width: 122px; height: 181px; object-fit: cover;"></div>
+											</div>
+										</div>
+										<div style="left: 340px; position: absolute; top: 1878px; width: 286px; height: 23px;" data-exact-height="23" data-content-padding-horizontal="0"
+										 data-content-padding-vertical="0" title="" class="wp2" id="comp-j2nnl841" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nnl841">
+											<div style="width: 286px; height: 23px;" id="comp-j2nnl841link" class="wp2link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nnl841.$link">
+												<div id="comp-j2nnl841img" data-style="" class="wp2img" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nnl841.$link.0"
+												 style="position: relative; width: 286px; height: 23px;">
+													<div class="wp2imgpreloader" id="comp-j2nnl841imgpreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nnl841.$link.0.$preloader"></div><img id="comp-j2nnl841imgimage" alt="" data-type="image" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nnl841.$link.0.$image"
+													 src="./comquemseama-2.0_files/1d5057_216b3c35d2764c0a94c2a7cbe2de5e69-mv2.png" style="width: 286px; height: 23px; object-fit: cover;"></div>
+											</div>
+										</div>
+										<div style="left: 353px; position: absolute; transform: rotate(180deg) translateZ(0px); top: 1404px; width: 260px; height: 20px;"
+										 data-exact-height="20" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2"
+										 data-angle="180" id="comp-j2nnn00o" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nnn00o">
+											<div style="width: 260px; height: 20px;" id="comp-j2nnn00olink" class="wp2link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nnn00o.$link">
+												<div id="comp-j2nnn00oimg" data-style="" class="wp2img" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nnn00o.$link.0"
+												 style="position: relative; width: 260px; height: 20px;">
+													<div class="wp2imgpreloader" id="comp-j2nnn00oimgpreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nnn00o.$link.0.$preloader"></div><img id="comp-j2nnn00oimgimage" alt="" data-type="image" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nnn00o.$link.0.$image"
+													 src="./comquemseama-2.0_files/1d5057_3b2d8e3c40cb4547a708a04ff7c7c7ca-mv2.png" style="width: 260px; height: 20px; object-fit: cover;"></div>
+											</div>
+										</div>
+										<div style="left: 457px; position: absolute; transform: rotate(21.54deg) translateZ(0px); top: 2489px; width: 44px; height: 40px;"
+										 data-exact-height="40" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2"
+										 data-angle="21.539965319829548" id="comp-j2noee5o" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2noee5o">
+											<div style="width: 44px; height: 40px;" id="comp-j2noee5olink" class="wp2link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2noee5o.$link">
+												<div id="comp-j2noee5oimg" data-style="" class="wp2img" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2noee5o.$link.0"
+												 style="position: relative; width: 44px; height: 40px;">
+													<div class="wp2imgpreloader" id="comp-j2noee5oimgpreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2noee5o.$link.0.$preloader"></div><img id="comp-j2noee5oimgimage" alt="" data-type="image" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2noee5o.$link.0.$image"
+													 src="./comquemseama-2.0_files/1d5057_b082404e1aaf4114a0539b54b866e770-mv2.png" style="width: 44px; height: 40px; object-fit: cover;"></div>
+											</div>
+										</div>
+										<div style="left: 523px; width: 415px; position: absolute; top: 2523px; height: 64px;" class="style-j2nyjnky" id="comp-j2np1k1s"
+										 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2np1k1s">
+											<div id="comp-j2np1k1sbg" class="style-j2nyjnkybg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2np1k1s.$bg"></div>
+											<div id="comp-j2np1k1sinlineContent" class="style-j2nyjnkyinlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2np1k1s.$inlineContent">
+												<div style="left: 15px; width: 388px; position: absolute; top: 5px;" class="txtNew" id="comp-j2np4am4" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2np1k1s.$inlineContent.$comp-j2np4am4">
+													<p class="font_7" style="text-align:center; font-size:22px;"><span style="font-size:22px;"><span style="font-weight:bold;"><span style="font-family:amatic sc,cursive;"><span style="color:#BA7D84;">Esses hotéis&nbsp;são nossos parceiros, então lembre-se de mencionar que vai ao nosso casamento.</span></span>
+														</span>
+														</span>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div style="left: 124px; width: 732px; position: absolute; top: 4037px; height: 66px;" class="style-j2np6l4w" id="comp-j2nxss0l"
+										 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nxss0l">
+											<div id="comp-j2nxss0lbg" class="style-j2np6l4wbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nxss0l.$bg"></div>
+											<div id="comp-j2nxss0linlineContent" class="style-j2np6l4winlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nxss0l.$inlineContent">
+												<div style="left: 5px; width: 721px; position: absolute; top: 3px;" class="txtNew" id="comp-iyi0qon6" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nxss0l.$inlineContent.$comp-iyi0qon6">
+													<p class="font_7" style="font-size:24px; text-align:center;"><span class="color_15"><span style="font-size:24px;"><span style="font-family:amatic sc,cursive;">Endereço de envio: Rua Arquiteto José augusto Silva, 1023, Apartamento 12C, Fazenda&nbsp;Santa Cândida, Campinas- SP;&nbsp;CEP 13087-570</span></span>
+														</span>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div style="left: 52px; width: 340px; position: absolute; top: 4740px; height: 156px;" class="style-j2np6l4w" id="comp-j2nyvjfy"
+										 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nyvjfy">
+											<div id="comp-j2nyvjfybg" class="style-j2np6l4wbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nyvjfy.$bg"></div>
+											<div id="comp-j2nyvjfyinlineContent" class="style-j2np6l4winlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nyvjfy.$inlineContent">
+												<div style="left: 36px; width: 249px; position: absolute; top: 17px;" class="txtNew" id="ibt90z07" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nyvjfy.$inlineContent.$ibt90z07">
+													<h5 class="font_5"><span class="color_23"><span style="font-weight:bold;">Email:</span></span>
+													</h5>
+
+													<p class="font_7" style="font-size:24px;"><span style="font-weight:bold;"><span style="font-size:24px;"><span style="font-family:amatic sc,cursive;">comquemseama@gmail.com</span></span>
+														</span>
+													</p>
+
+													<p class="font_7" style="font-size:6px;"><span style="font-size:6px;"><span style="font-weight:bold;"><span style="font-family:amatic sc,cursive;"><span class="wixGuard">​</span></span>
+														</span>
+														</span>
+													</p>
+
+													<p class="font_7" style="font-size:24px;"><span style="font-size:24px;"><span style="font-family:amatic sc,cursive;">ou&nbsp;use o formulário de contato&nbsp;&gt;</span></span>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div style="left: 333px; width: 610px; position: absolute; top: -262px;" class="txtNew" id="comp-j2nlg23y" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j2nlg23y">
+											<h6 class="font_6" style="font-size:41px;"><span style="font-size:41px;"><span style="font-family:sacramento,cursive;"><span style="color:#000000;">Uma experiência para viver com quem se ama</span></span>
+												</span>
+											</h6>
+										</div>
+										<div style="left: 388px; width: 202px; position: absolute; top: 3855px;" class="txtNew" id="comp-j5sgdszg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j5sgdszg">
+											<h2 class="font_2" style="font-size:30px; text-align:center;"><span style="font-size:30px;"><span style="font-family:soho-w01-thin-condensed,soho-w02-thin-condensed,serif;"><span class="color_23"><span style="font-weight:bold;">Em breve</span></span>
+												você encontra-rá os links aqui</span>
+												</span>
+											</h2>
+										</div>
+										<div style="left: 295px; width: 162px; position: absolute; transform: rotate(90deg) translateZ(0px); top: 3911px; height: 5px;"
+										 class="style-j5skwzrt" data-angle="90" id="comp-j5skvpew" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j5skvpew">
+											<div id="comp-j5skvpewline" class="style-j5skwzrtline" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j5skvpew.$line"></div>
+										</div>
+										<div style="left: 522px; width: 162px; position: absolute; transform: rotate(90deg) translateZ(0px); top: 3911px; height: 5px;"
+										 class="style-j5skwmt5" data-angle="90" id="comp-j5skwa3r" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j5skwa3r">
+											<div id="comp-j5skwa3rline" class="style-j5skwmt5line" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j5skwa3r.$line"></div>
+										</div>
+										<div style="left: 935px; width: 207px; position: absolute; visibility: hidden; top: 4925px;" class="txtNew" id="comp-j5sscf1z"
+										 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j5sscf1z">
+											<p class="font_8" style="font-size:15px; text-align:center;"><span style="text-shadow:#c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;"><span style="font-family:stencil-w01-bold,fantasy;"><span style="font-size:15px;"><span class="color_28">HEY! Não vai embora antes de nos assistir nos vlogs!</span></span>
+												</span>
+												</span>
+											</p>
+										</div>
+										<div tabindex="0" role="button" style="left: 895px; width: 40px; position: absolute; transform: rotate(270deg) translateZ(0px); visibility: hidden; top: 4961px; height: 28px;"
+										 class="style-j5ssm1zi" data-angle="270" id="comp-j5sskp2p" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.$centeredContent.$inlineContent.$SITE_PAGES.$c1dmp_DESKTOP.$inlineContent.$comp-j5sskp2p">
+											<style type="text/css">
+												.style-j5ssm1zi svg {
+													width: 100%;
+													height: 100%;
+													position: absolute;
+													top: 0;
+													right: 0;
+													bottom: 0;
+													left: 0;
+													margin: auto;
+													fill: #BF2436;
+													fill-opacity: 1;
+													stroke: rgba(191, 36, 54, 1);
+													stroke-width: 2px;
+												}
+
+												.style-j5ssm1zi svg * {
+													vector-effect: non-scaling-stroke;
+												}
+
+												.style-j5ssm1zi a {
+													display: block;
+													height: 100%;
+												}
+											</style>
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="9.15789473684211 -4.116970212836009 193.68421052631578 135.57894736842104"
+											 preserveAspectRatio="xMidYMid meet" style="stroke-width: 2px;">
+												<g>
+													<path d="M14.489 57.608a3.3 3.3 0 0 1-.187-.345c-.03-.065-.056-.132-.082-.199a3.245 3.245 0 0 1-.115-.371c-.016-.065-.034-.128-.046-.195a3.198 3.198 0 0 1-.058-.577l-.001-.01.001-.01a3.3 3.3 0 0 1 .058-.577c.012-.066.03-.13.046-.195a3.245 3.245 0 0 1 .197-.57 3.3 3.3 0 0 1 .187-.345c.033-.054.062-.11.099-.162.013-.018.021-.038.034-.056L46.01 10.84a3.252 3.252 0 0 1 4.546-.717c1.453 1.057 1.774 3.263.718 4.717L23.644 53h129.355C178.119 53 198 72.61 198 99.069v15.693c0 1.797-1.703 3.254-3.5 3.254s-3.5-1.457-3.5-3.254V99.069C191 76.32 174.409 59 152.999 59H23.644l27.63 38.072c1.057 1.454.735 3.53-.718 4.587a3.26 3.26 0 0 1-1.911.644 3.24 3.24 0 0 1-2.635-1.33L14.622 57.821c-.013-.018-.022-.035-.034-.053-.036-.053-.066-.106-.099-.16z"></path>
+												</g>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<footer style="position: absolute; width: 980px; z-index: 50; left: 0px; height: 89px; bottom: 0px; top: auto;" class="style-j2nnxe7y_footer style-j2nnxe7y"
+				 data-state=" fixedPosition" id="SITE_FOOTER" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER">
+					<div id="SITE_FOOTERscreenWidthBackground" class="style-j2nnxe7yscreenWidthBackground" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$screenWidthBackground"
+					 style="width: 1349px; left: -185px;">
+						<div class="style-j2nnxe7y_bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$screenWidthBackground.0"></div>
+					</div>
+					<div id="SITE_FOOTERcenteredContent" class="style-j2nnxe7ycenteredContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent">
+						<div id="SITE_FOOTERbg" class="style-j2nnxe7ybg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$bg"></div>
+						<div id="SITE_FOOTERinlineContent" class="style-j2nnxe7yinlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent">
+							<div style="position: absolute; top: 56px; height: 33px; width: 1349px; left: -185px;" class="bgis1" id="ibt8uwjh"
+							 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibt8uwjh">
+								<div data-type="bgimage" id="ibt8uwjhbg" class="bgis1bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibt8uwjh.$bg"
+								 data-image-css="{&quot;backgroundSize&quot;:&quot;auto&quot;,&quot;backgroundRepeat&quot;:&quot;repeat&quot;,&quot;backgroundPosition&quot;:&quot;center center&quot;}"
+								 style="background-size: auto; background-repeat: repeat; background-position: center center; background-image: url(&quot;https://static.wixstatic.com/media/1d5057_e336a789b461432396345644a2f3ab79~mv2.png/v1/crop/w_1349,h_33,al_c/1d5057_e336a789b461432396345644a2f3ab79~mv2.png&quot;);"></div>
+								<div id="ibt8uwjhinlineContent" class="bgis1inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibt8uwjh.$inlineContent"></div>
+							</div>
+							<nav id="ibgkg6mo" data-menuborder-y="0" data-menubtn-border="0" data-ribbon-els="0" data-label-pad="0" data-ribbon-extra="0"
+							 data-drophposition="" data-dropalign="center" dir="ltr" style="left: 39px; width: 901px; position: absolute; top: 20px; height: 16px;"
+							 class="style-j2no1fwf" data-state="center notMobile" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo"
+							 data-dropmode="dropUp">
+								<div style="text-align:center;" role="navigation" aria-label="Site navigation" id="ibgkg6moitemsContainer" class="style-j2no1fwfitemsContainer"
+								 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer">
+									<a style="display: inherit; color: grey; width: 85px; height: 16px; position: relative; box-sizing: border-box; overflow: visible;"
+									 role="button" tabindex="0" aria-haspopup="false" data-listposition="left" data-direction="ltr" href="http://editor.wix.com/html/editor/web/renderer/external_preview/document/6fe72ea7-a69b-4ac9-9634-66310321447b?metaSiteId=65686e1f-e815-4768-a947-1d7965d73d90"
+									 target="_self" class="style-j2no1fwfrepeaterButton" data-state="menu selected idle link notMobile" id="ibgkg6mo0"
+									 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi23nr"
+									 data-original-gap-between-text-and-btn="10">
+										<div class="style-j2no1fwfrepeaterButton_wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi23nr.0">
+											<div style="text-align:center;" id="ibgkg6mo0bg" class="style-j2no1fwfrepeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi23nr.0.$bg">
+												<p style="text-align: center; line-height: 16px;" id="ibgkg6mo0label" class="style-j2no1fwfrepeaterButtonlabel"
+												 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi23nr.0.$bg.$label">INÍCIO</p>
+											</div>
+										</div>
+									</a>
+									<a style="display: inherit; color: grey; width: 162px; height: 16px; position: relative; box-sizing: border-box; overflow: visible;"
+									 role="button" tabindex="0" aria-haspopup="false" data-listposition="center" data-direction="ltr" href="http://editor.wix.com/html/editor/web/renderer/external_preview/document/6fe72ea7-a69b-4ac9-9634-66310321447b?metaSiteId=65686e1f-e815-4768-a947-1d7965d73d90"
+									 target="_self" data-keep-roots="true" data-anchor="c21ge" class="style-j2no1fwfrepeaterButton" data-state="menu  idle link notMobile"
+									 id="ibgkg6mo1" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmivef"
+									 data-original-gap-between-text-and-btn="11">
+										<div class="style-j2no1fwfrepeaterButton_wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmivef.0">
+											<div style="text-align:center;" id="ibgkg6mo1bg" class="style-j2no1fwfrepeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmivef.0.$bg">
+												<p style="text-align: center; line-height: 16px;" id="ibgkg6mo1label" class="style-j2no1fwfrepeaterButtonlabel"
+												 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmivef.0.$bg.$label">HORA E LOCAL</p>
+											</div>
+										</div>
+									</a>
+									<a style="display: inherit; color: grey; width: 78px; height: 16px; position: relative; box-sizing: border-box; overflow: visible;"
+									 role="button" tabindex="0" aria-haspopup="false" data-listposition="center" data-direction="ltr" href="http://editor.wix.com/html/editor/web/renderer/external_preview/document/6fe72ea7-a69b-4ac9-9634-66310321447b?metaSiteId=65686e1f-e815-4768-a947-1d7965d73d90"
+									 target="_self" data-keep-roots="true" data-anchor="c17sp" class="style-j2no1fwfrepeaterButton" data-state="menu  idle link notMobile"
+									 id="ibgkg6mo2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmiejw"
+									 data-original-gap-between-text-and-btn="11">
+										<div class="style-j2no1fwfrepeaterButton_wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmiejw.0">
+											<div style="text-align:center;" id="ibgkg6mo2bg" class="style-j2no1fwfrepeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmiejw.0.$bg">
+												<p style="text-align: center; line-height: 16px;" id="ibgkg6mo2label" class="style-j2no1fwfrepeaterButtonlabel"
+												 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmiejw.0.$bg.$label">MAPA</p>
+											</div>
+										</div>
+									</a>
+									<a style="display: inherit; color: grey; width: 287px; height: 16px; position: relative; box-sizing: border-box; overflow: visible;"
+									 role="button" tabindex="0" aria-haspopup="false" data-listposition="center" data-direction="ltr" href="http://editor.wix.com/html/editor/web/renderer/external_preview/document/6fe72ea7-a69b-4ac9-9634-66310321447b?metaSiteId=65686e1f-e815-4768-a947-1d7965d73d90"
+									 target="_self" data-keep-roots="true" data-anchor="c1xr2" class="style-j2no1fwfrepeaterButton" data-state="menu  idle link notMobile"
+									 id="ibgkg6mo3" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmicn8"
+									 data-original-gap-between-text-and-btn="12">
+										<div class="style-j2no1fwfrepeaterButton_wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmicn8.0">
+											<div style="text-align:center;" id="ibgkg6mo3bg" class="style-j2no1fwfrepeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmicn8.0.$bg">
+												<p style="text-align: center; line-height: 16px;" id="ibgkg6mo3label" class="style-j2no1fwfrepeaterButtonlabel"
+												 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmicn8.0.$bg.$label">TRANSPORTE E ACOMODAÇÃO</p>
+											</div>
+										</div>
+									</a>
+									<a style="display: inherit; color: grey; width: 136px; height: 16px; position: relative; box-sizing: border-box; overflow: visible;"
+									 role="button" tabindex="0" aria-haspopup="false" data-listposition="center" data-direction="ltr" href="http://editor.wix.com/html/editor/web/renderer/external_preview/document/6fe72ea7-a69b-4ac9-9634-66310321447b?metaSiteId=65686e1f-e815-4768-a947-1d7965d73d90"
+									 target="_self" data-keep-roots="true" data-anchor="ctq7" class="style-j2no1fwfrepeaterButton" data-state="menu  idle link notMobile"
+									 id="ibgkg6mo4" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi1snv"
+									 data-original-gap-between-text-and-btn="11">
+										<div class="style-j2no1fwfrepeaterButton_wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi1snv.0">
+											<div style="text-align:center;" id="ibgkg6mo4bg" class="style-j2no1fwfrepeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi1snv.0.$bg">
+												<p style="text-align: center; line-height: 16px;" id="ibgkg6mo4label" class="style-j2no1fwfrepeaterButtonlabel"
+												 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi1snv.0.$bg.$label">PRESENTES</p>
+											</div>
+										</div>
+									</a>
+									<a style="display: inherit; color: grey; width: 74px; height: 16px; position: relative; box-sizing: border-box; overflow: visible;"
+									 role="button" tabindex="0" aria-haspopup="false" data-listposition="center" data-direction="ltr" href="http://editor.wix.com/html/editor/web/renderer/external_preview/document/6fe72ea7-a69b-4ac9-9634-66310321447b?metaSiteId=65686e1f-e815-4768-a947-1d7965d73d90"
+									 target="_self" data-keep-roots="true" data-anchor="cei0" class="style-j2no1fwfrepeaterButton" data-state="menu  idle link notMobile"
+									 id="ibgkg6mo5" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi6gt"
+									 data-original-gap-between-text-and-btn="11">
+										<div class="style-j2no1fwfrepeaterButton_wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi6gt.0">
+											<div style="text-align:center;" id="ibgkg6mo5bg" class="style-j2no1fwfrepeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi6gt.0.$bg">
+												<p style="text-align: center; line-height: 16px;" id="ibgkg6mo5label" class="style-j2no1fwfrepeaterButtonlabel"
+												 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$bmi6gt.0.$bg.$label">RSVP</p>
+											</div>
+										</div>
+									</a>
+									<a style="display: inherit; color: grey; width: 79px; height: 16px; position: relative; box-sizing: border-box; overflow: visible;"
+									 role="button" tabindex="0" aria-haspopup="false" data-listposition="right" data-direction="ltr" href="http://editor.wix.com/html/editor/web/renderer/external_preview/document/6fe72ea7-a69b-4ac9-9634-66310321447b/vlog?metaSiteId=65686e1f-e815-4768-a947-1d7965d73d90"
+									 target="_self" class="style-j2no1fwfrepeaterButton" data-state="menu  idle link notMobile" id="ibgkg6mo6" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$dataItem-j5sgko2x"
+									 data-original-gap-between-text-and-btn="12">
+										<div class="style-j2no1fwfrepeaterButton_wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$dataItem-j5sgko2x.0">
+											<div style="text-align:center;" id="ibgkg6mo6bg" class="style-j2no1fwfrepeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$dataItem-j5sgko2x.0.$bg">
+												<p style="text-align: center; line-height: 16px;" id="ibgkg6mo6label" class="style-j2no1fwfrepeaterButtonlabel"
+												 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$dataItem-j5sgko2x.0.$bg.$label">VLOG</p>
+											</div>
+										</div>
+									</a>
+									<a style="display: inline-block; box-sizing: border-box; color: grey; height: 0px; overflow: hidden; position: absolute;"
+									 role="button" tabindex="0" aria-haspopup="true" data-listposition="right" class="style-j2no1fwfrepeaterButton" data-state="menu  idle header notMobile"
+									 id="ibgkg6mo__more__" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$__more__"
+									 data-original-gap-between-text-and-btn="11">
+										<div class="style-j2no1fwfrepeaterButton_wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$__more__.0">
+											<div style="text-align:center;" id="ibgkg6mo__more__bg" class="style-j2no1fwfrepeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$__more__.0.$bg">
+												<p style="text-align:center;" id="ibgkg6mo__more__label" class="style-j2no1fwfrepeaterButtonlabel" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$itemsContainer.$__more__.0.$bg.$label">More</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div id="ibgkg6momoreButton" class="style-j2no1fwfmoreButton" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$moreButton"></div>
+								<div style="visibility: hidden; left: 0px; right: auto; bottom: 16px;" data-drophposition="" data-dropalign="center"
+								 role="navigation" id="ibgkg6modropWrapper" class="style-j2no1fwfdropWrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$dropWrapper">
+									<div style="visibility: hidden; left: 0px; right: auto;" id="subMenuContainer" class="style-j2no1fwfmoreContainer"
+									 data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$ibgkg6mo.$dropWrapper.$moreContainer"></div>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>		
+	</div>
+	<noscript data-reactid=".0.4"></noscript>
+	<div class="siteAspectsContainer" data-reactid=".0.$siteAspectsContainer">
+		<div data-reactid=".0.$siteAspectsContainer.$aspectPortal"></div>
+		<div data-reactid=".0.$siteAspectsContainer.$externalScriptContainer"></div>
+		<noscript data-reactid=".0.$siteAspectsContainer.$ecomCheckoutAspectContrainer"></noscript>
+	</div>
+	<noscript data-reactid=".0.6"></noscript>
+	</div>
+	</div>
+
+	<!-- $rendererModel.applicationType -->
+	<div comp="wysiwyg.viewer.components.WixAds" skin="wysiwyg.viewer.skins.wixadsskins.WixAdsWebSkin" id="wixFooter">
+
+
+
+		<script type="text/javascript">
+			window.NREUM || (NREUM = {}); NREUM.info = { "errorBeacon": "bam.nr-data.net", "licenseKey": "c99d7f1ab0", "agent": "", "beacon": "bam.nr-data.net", "applicationTime": 51, "applicationID": "1966366,39111861", "transactionName": "ZFAHNkNYXUBQVEUKXF0aNhJDUF1UclhfF0FcWQkHQxZjQVRBWAZEYVALBlRLVkFyWF8XQVxZCQdDFlZLRVJDDVJfZRcHR1BWRA==", "queueTime": 0 }
+		</script>
+	</div>
+</body>
+
+</html>
