@@ -1,0 +1,88 @@
+.font_0 {
+    font: normal normal bold 106px/1.4em sacramento, cursive;
+    color: #FFFFFF;
+}
+
+.font_1 {
+    font: normal normal bold 16px/1.4em raleway, sans-serif;
+    color: #FFFFFF;
+}
+
+.font_2 {
+    font: normal normal normal 25px/1.4em raleway, sans-serif;
+    color: #FFFFFF;
+}
+
+.font_3 {
+    font: normal normal bold 120px/1.4em raleway, sans-serif;
+    color: #FFFFFF;
+}
+
+.font_4 {
+    font: normal normal bold 94px/1.4em raleway, sans-serif;
+    color: #FFFFFF;
+}
+
+.font_5 {
+    font: normal normal bold 38px/1.4em sacramento, cursive;
+    color: #FFFFFF;
+}
+
+.font_6 {
+    font: normal normal normal 36px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+    color: #B6B6B6;
+}
+
+.font_7 {
+    font: normal normal normal 18px/1.4em raleway, sans-serif;
+    color: #FFFFFF;
+}
+
+.font_8 {
+    font: normal normal normal 15px/1.4em raleway, sans-serif;
+    color: #FFFFFF;
+}
+
+.font_9 {
+    font: normal normal normal 14px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    color: #FFFFFF;
+}
+
+.font_10 {
+    font: normal normal normal 12px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    color: #FFFFFF;
+}
+
+.wedding-title {
+    font-size: 69px; 
+    font-weight:normal;
+    color: #000000;
+    line-height: 1.2em; 
+    text-align: center;
+}
+
+.wedding-subtitle {
+    font-size: 41px;
+    font-family: sacramento,cursive;
+    color: #000000;
+    line-height: normal;
+    word-wrap: break-word;
+    position: absolute;
+    bottom: -52px;
+}
+
+.wedding-names {
+    font-size: 92px; 
+    line-height :1.2em; 
+    text-align: center;
+    font-family: fredericka the great,fantasy;
+    color: #000000;
+}
+
+
+.wedding-text {
+    left: 331px;
+    width: 614px;
+    position: absolute;
+    top: 141px;
+}

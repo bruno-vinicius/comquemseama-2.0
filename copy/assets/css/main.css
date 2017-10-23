@@ -1,0 +1,72 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,
+dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,
+label,legend,table,caption,tbody,tfoot,thead,tr,th,td,nav,button,section,header,footer,title {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.background {
+    position: absolute; 
+    top: 0px; 
+    width: 100%; 
+    background-size: auto; 
+    background-position: left top; 
+    background-repeat: repeat-x; 
+    height: 100%; 
+    background-image: url("../images/background.webp");
+}
+
+header {
+    position: relative;
+    width: 980px;
+    height: 585px;
+    margin: 0 auto;
+}
+
+.wedding-logo {
+    left: 30px;
+    position: absolute;
+    top: 146px;
+    width: 264px;
+    height: 260px;
+}
+
+.icon-next-section {
+    left: 447px; 
+    width: 85px; 
+    position: absolute; 
+    top: 487px; 
+    height: 52px;
+}
+
+.icon-next-section svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    fill: #2F2E2E;
+    fill-opacity: 0.35;
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 0px;
+}
+
+.icon-next-section svg * {
+    vector-effect: non-scaling-stroke;
+}
+
+.icon-next-section a {
+    display: block;
+    height: 100%;
+}
+
+.bride-groom-photo {
+    width: 100%;
+}
