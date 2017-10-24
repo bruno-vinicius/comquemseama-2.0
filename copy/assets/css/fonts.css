@@ -86,3 +86,15 @@
     position: absolute;
     top: 141px;
 }
+
+.date-info-title {
+    font-weight: normal;
+    font-family:fredericka the great,fantasy;
+    color:#000000;
+    font-size:100px; 
+    line-height:1em;
+}
+
+.date-info-title-yellow {
+    color:#F7E07C;
+}
