@@ -180,11 +180,64 @@ header {
     position: relative;
     white-space: nowrap;
     padding-left: 38px;
-    
+    line-height: 39px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.button-more-info::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    right: -40px;
+    border-width: 20px;
+    border-color: transparent transparent transparent rgba(49, 99, 93, 1);;
+}
+
+.button-more-info:hover::after {
+    border-left-color: #F7E07C;
 }
 
 .button-more-info:hover {
     cursor: pointer;
     color: #ffffff;
     background-color: rgba(247, 224, 124, 1);
+}
+
+.go-to-map {
+    cursor: pointer;
+    margin-top: 150px;
+}
+.go-to-map span{
+    color: #000000;
+    vertical-align: top;
+}
+
+.go-to-map svg {
+    width: 41px;
+    height: 25px;
+    margin: auto;
+    fill: #000000;
+    fill-opacity: 1;
+    stroke: rgba(255, 255, 255, 1);
+    margin-right: 15px;
+}
+
+.location-map img {
+    margin: 20px auto;
+    display: block;
+}
+
+.map-canvas {
+    width:850px;
+    height:404px;
+    background-color:black;
+    margin: 30px auto;
+}
+
+.arrow-right {
+    transform: rotate(180deg) translateZ(0px);
 }
