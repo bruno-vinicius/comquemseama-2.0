@@ -137,3 +137,54 @@ header {
     height: 181px; 
     object-fit: cover;
 }
+
+.location-info {
+    margin-top: 30px;
+    width: 380px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.svg-wrapper {
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.svg-wrapper svg {
+    width: 57px;
+    height: 57px;
+    fill: #F7E07C;
+    fill-opacity: 1;
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 0px;
+    margin-right: 20px;
+}
+
+.svg-wrapper a {
+    display: block;
+    height: 100%;
+}
+
+.column-right-gutter {
+    margin-right: 70px;
+}
+
+.button-more-info {
+    width: 254px;
+    height: 40px;
+    background-color: rgba(49, 99, 93, 1);
+    font: normal normal 700 24px/1.4em 'amatic sc', cursive;
+    color: #000000;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    padding-left: 38px;
+    
+}
+
+.button-more-info:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgba(247, 224, 124, 1);
+}
