@@ -250,3 +250,45 @@ header {
     height: 100px;
     left: 65px;
 }
+
+.hotels-list {
+    font-family: belinda-w00-regular,script;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: disc;
+}
+
+.hotels-list li{
+    color: #0B114D;
+}
+
+.transport-info p, li {
+    line-height: normal;
+}
+
+.transport-info .svg-wrapper svg {
+    width: 70px;
+}
+
+.heart-icon {
+    position: absolute;
+    transform: rotate(21.54deg) translateZ(0px);
+    width: 44px;
+    height: 40px;
+    left: 490px;
+    bottom: 75px;
+}
+
+.hint {
+    color: #BA7D84;
+    background-color: #0b114d;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: amatic sc,cursive;
+    font-weight: bold;
+    width: 415px;
+    height: 64px;
+    padding-top: 10px;
+    margin-top: 15px;
+}

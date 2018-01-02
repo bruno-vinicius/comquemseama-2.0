@@ -114,3 +114,18 @@
     letter-spacing: 0.05em;
     vertical-align: bottom;
 }
+
+.blue-bold {
+    font-weight: bold;
+    font-family: belinda-w00-regular,script;
+    font-size: 20px;
+    color: #0B114D;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.transport-info .font_5 {
+    vertical-align: inherit;
+}

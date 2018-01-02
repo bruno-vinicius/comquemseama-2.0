@@ -10,6 +10,6 @@ TODO List:
  - Fontes [X]
  - JS []
  - Corrigir Links []
- - Corrigir Maps []
+ - Corrigir Maps [X]
  - Fix Semantica []
  - Fazer a seção 1 aparecer fullscreen []
