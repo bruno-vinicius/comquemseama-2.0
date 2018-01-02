@@ -359,3 +359,34 @@ header {
 .gift-list .text-info {
     padding-left: 0px;
 }
+
+.rsvp {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.rsvp .text-info {
+    padding-left: 0px;
+}
+
+.rsvp p {
+    font-family: belinda-w00-regular,script;
+    font-size: 22px;
+    color: #000000;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.rsvp .spark svg {
+    transform: rotate(234deg) translateZ(0px);
+}
+
+.rsvp .spark {
+    width: 103px;
+    position: absolute;
+    transform: rotate(360deg) translateZ(0px);
+    top: -60px;
+    height: 100px;
+    left: 290px;
+}
