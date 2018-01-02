@@ -390,3 +390,35 @@ header {
     height: 100px;
     left: 290px;
 }
+
+.confirm-band {
+    width: 355px;
+    height: 84px;
+    margin: 0 auto;
+}
+
+.confirm-band a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.confirm-band a:hover {
+    text-decoration: none;
+    color: #BA7D84;
+    transition: color 0.4s ease 0s;
+}
+
+.confirm-band span {
+    position: absolute;
+    top: 316px;
+    left: 375px;
+    font: normal normal 700 30px/1.4em 'amatic sc', cursive
+}
+
+.confirm-band svg {
+    width: 100%;
+    height: 100%;
+    fill: #31635D;
+    fill-opacity: 1;
+    stroke: rgba(255, 255, 255, 1);
+}
