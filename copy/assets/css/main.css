@@ -262,6 +262,10 @@ header {
     color: #0B114D;
 }
 
+.transport-info {
+    padding-bottom: 30px;
+}
+
 .transport-info p, li {
     line-height: normal;
 }
@@ -291,4 +295,67 @@ header {
     height: 64px;
     padding-top: 10px;
     margin-top: 15px;
+}
+
+.gift-list {
+    padding-top: 100px;
+    background-color: #A78080;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.gift-list h3 {
+    font-size: 77px;
+}
+
+.gift-list .spark {
+    transform: rotate(321deg) translateZ(0px);
+    top: -57px;
+    right: -20px;
+}
+
+.gift-icon-wrapper {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.gift-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.gift-list p {
+    font-family: belinda-w00-regular,script;
+    font-size: 22px;
+    color: #000000;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.gift-soon {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: soho-w01-thin-condensed,soho-w02-thin-condensed,serif;
+    text-align: center;
+    padding: 20px 40px;
+    width: 140px;
+    border-left: 3px solid #12184D;
+    border-right: 3px solid #12184D;
+    margin: 40px auto;
+}
+
+.gift-soon .color_23 {
+    font-weight: bold;
+}
+
+.gift-list .hint {
+    width: 700px;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.gift-list .text-info {
+    padding-left: 0px;
 }
