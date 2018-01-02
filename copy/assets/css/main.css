@@ -422,3 +422,95 @@ header {
     fill-opacity: 1;
     stroke: rgba(255, 255, 255, 1);
 }
+
+.rsvp .hint {
+    display: inline-block;
+    width: 300px;
+    height: 134px;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.rsvp .hint span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.rsvp .hint span:last-of-type {
+    font-weight: normal;
+}
+
+.rsvp form {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.rsvp .input-group {
+    width: 260px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rsvp input[type=text] {
+    background-color: rgba(186, 125, 132, 0.4);
+    font: normal normal normal 15px/1.4em raleway, sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid rgba(11, 17, 77, 1);
+    color: #FFFFFF;
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 92%;
+}
+
+.rsvp input[type=submit] {
+    display: block;
+    border: 0;
+    color: #234070;
+    cursor: pointer;
+    background-color: rgba(235, 197, 42, 1);
+    font: normal normal normal 18px/1.4em raleway, sans-serif;
+    padding: 5px;
+    position: absolute;
+    right: 32px;
+}
+
+.rsvp textarea {
+    background-color: rgba(186, 125, 132, 0.4);
+    font: normal normal normal 15px/1.4em raleway, sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid rgba(11, 17, 77, 1);
+    color: #FFFFFF;
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 260px;
+    resize: none;
+    height: 101px;
+}
+
+.rsvp input, textarea {
+    outline: none;
+}
+
+.phone-info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.phone-info span {
+    display: block;
+    color: #0B114D;
+    font-family: amatic sc,cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.phone-info span:first-of-type {
+    font-family: sacramento,cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
