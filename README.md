@@ -13,3 +13,4 @@ TODO List:
  - Corrigir Maps [X]
  - Fix Semantica []
  - Fazer a seção 1 aparecer fullscreen []
+ - Ajustar menu e âncoras []
