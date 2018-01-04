@@ -83,7 +83,7 @@ header {
     width: 980px;
     position: relative;
     margin: 0 auto;
-    padding-left: 123px;
+    display: block;
 }
 
 .spark {
@@ -248,7 +248,7 @@ header {
     transform: rotate(360deg) translateZ(0px);
     top: -55px;
     height: 100px;
-    left: 65px;
+    left: -47px;
 }
 
 .hotels-list {
@@ -279,7 +279,7 @@ header {
     transform: rotate(21.54deg) translateZ(0px);
     width: 44px;
     height: 40px;
-    left: 490px;
+    left: 350px;
     bottom: 75px;
 }
 
