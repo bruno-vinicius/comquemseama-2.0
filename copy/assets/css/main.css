@@ -596,10 +596,10 @@ nav li {
     }
 
     .ring-wrapper {
-        right: 20%;
+        right: 10%;
         position: absolute;
         transform: rotate(336.059deg) translateZ(0px);
-        top: 46%;
+        top: 35%;
         width: 72px;
         height: 85px;
     }
@@ -682,5 +682,12 @@ nav li {
         width: 100%;
         font-size: 25px;
         height: auto;
+    }
+
+    .rsvp .spark {
+        width: 50px;
+        height: 50px;
+        left: 100px;
+        top: -3%;
     }
 }
