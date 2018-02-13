@@ -225,6 +225,11 @@ header {
     margin: 30px auto;
 }
 
+.map-canvas iframe {
+    width: 850px;
+    height: 404px;
+}
+
 .arrow-right {
     transform: rotate(180deg) translateZ(0px);
 }
@@ -551,4 +556,131 @@ nav li {
     transition: color 0.4s ease 0s;
     display: inline-block;
     padding: 0 12px;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-info {
+        width: 97%;
+        padding-left: 3%;
+    }
+
+    footer, .icon-next-section {
+        display: none;
+    }
+
+    .wedding-logo {
+        margin: 40px auto;
+        display: block;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    .date-info {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    .spark {
+        width: 50px;
+        position: absolute;
+        transform: rotate(328deg) translateZ(0px);
+        height: 50px;
+        right: 30%;
+        top: -30%;
+    }
+
+    .ring-wrapper {
+        right: 20%;
+        position: absolute;
+        transform: rotate(336.059deg) translateZ(0px);
+        top: 46%;
+        width: 72px;
+        height: 85px;
+    }
+
+    .ring-wrapper img {
+        width: 67px;
+        height: 99px;
+        object-fit: cover;
+    }
+
+    .go-to-map {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .map-canvas {
+        width: auto;
+        height: 400px;
+    }
+    
+    .map-canvas iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .transport-info .text-info {
+        padding-left: 8%;
+        width: 92%;
+    }
+
+    .transport-info .spark {
+        width: 50px;
+        position: absolute;
+        transform: rotate(360deg) translateZ(0px);
+        height: 43px;
+        left: 0%;
+        top: -30%;
+    }
+
+    .transport-info .hint {
+        width: 90%;
+        font-size: 24px;
+        height: auto;
+    }
+
+    .heart-icon {
+        position: absolute;
+        transform: rotate(21.54deg) translateZ(0px);
+        width: 44px;
+        height: 40px;
+        right: 8%;
+        bottom: 12%;
+    }
+
+    .location-info {
+        width: 100%;
+    }
+
+    .column-right-gutter {
+        margin-right: 0px;
+    }
+
+    .gift-list {
+        padding-top: 40px;
+    }
+
+    .gift-list .date-info-title {
+        font-size: 50px;
+    }
+
+    .gift-list .spark {
+        transform: rotate(321deg) translateZ(0px);
+        top: 3%;
+        right: 3%;
+    }
+
+    .gift-list .hint {
+        width: 100%;
+        font-size: 25px;
+        height: auto;
+    }
 }
