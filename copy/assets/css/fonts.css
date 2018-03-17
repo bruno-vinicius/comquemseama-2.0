@@ -142,9 +142,18 @@
         position: relative;
         bottom: 0px;
         text-align: center;
+        line-height: 36px;
     }
 
     .date-info-title {
         font-size: 45px;
+    }
+
+    .wedding-title {
+        font-size: 63px;
+    }
+
+    .wedding-names {
+        font-size: 80px;
     }
 }

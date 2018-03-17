@@ -570,7 +570,7 @@ nav li {
 @media screen and (max-width: 800px) {
     header {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
     .text-info {
@@ -584,10 +584,13 @@ nav li {
 
     .wedding-logo {
         margin: 40px auto;
+        margin-top: 15vh;
         display: block;
         position: relative;
         left: 0px;
         top: 0px;
+        width: 100px;
+        height: 100px;
     }
 
     .date-info {
@@ -693,10 +696,36 @@ nav li {
         height: auto;
     }
 
+    .rsvp {
+        padding-bottom: 20px;
+    }
+
     .rsvp .spark {
         width: 50px;
         height: 50px;
         left: 100px;
         top: -3%;
+    }
+
+    .confirm-band span {
+        top: 331px;
+        left: 95px;
+    }
+
+    form[name=contactForm] {
+        margin: 0 auto;
+        margin-top: 22px;
+    }
+
+    .rsvp input[type=submit] {
+        right: 63px;
+    }
+
+    .rsvp .input-group {
+        display: block;
+    }
+
+    .rsvp input[type=text] {
+        width: 100%;
     }
 }
