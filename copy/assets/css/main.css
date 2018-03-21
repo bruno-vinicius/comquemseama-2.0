@@ -537,28 +537,28 @@ footer {
     border-bottom: 33px solid #a58181;
 }
 
-nav {
+footer nav {
     height: 56px;
     display: block;
     margin: 0 auto;
     width: 980px;
 }
 
-nav ul {
+footer nav ul {
     padding-top: 17px;
 }
 
-nav a {
+footer nav a {
     text-decoration: none;
     color: #F7E07C;
     /* #B6B6B6 */
 }
 
-nav li:first-of-type {
+footer nav li:first-of-type {
     border-left: none;
 }
 
-nav li {
+footer nav li {
     display: inline-block;
     border-left: 1px solid rgba(35, 64, 112, 1);
     font: normal normal normal 16px/1.4em 'fredericka the great', fantasy;
