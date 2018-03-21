@@ -17,6 +17,7 @@
 		<link rel="stylesheet" href="assets/css/menu.css">
 		<link rel="stylesheet" href="../comquemseama-2.0_files/css" id="font_googleFonts">
 		<link rel="stylesheet" href="../comquemseama-2.0_files/languages.css" id="font_langauges">
+		<script src="assets/js/smooth-scroll.min.js"></script>
 	</head>
 
 	<body class="background">
@@ -27,12 +28,12 @@
 		<div class="mobile-menu overlay">
 			<nav>
 				<ul>
-					<li><a onclick="scrollTo(index)">INÍCIO</a></li>
-					<li><a onclick="scrollTo(date-and-venue)">HORA E LOCAL</a></li>
-					<li><a onclick="scrollTo(map)">MAPA</a></li>
-					<li><a onclick="scrollTo(location-info)">ACOMODAÇÃO</a></li>
-					<li><a onclick="scrollTo(gifts)">PRESENTES</a></li>
-					<li><a onclick="scrollTo(confirmation)">RSVP</a></li>
+					<li><a onclick="scrollToAnchor('index')">INÍCIO</a></li>
+					<li><a onclick="scrollToAnchor('date-and-venue')">HORA E LOCAL</a></li>
+					<li><a onclick="scrollToAnchor('map')">MAPA</a></li>
+					<li><a onclick="scrollToAnchor('location-info')">ACOMODAÇÃO</a></li>
+					<li><a onclick="scrollToAnchor('gifts')">PRESENTES</a></li>
+					<li><a onclick="scrollToAnchor('confirmation')">RSVP</a></li>
 					<li><a>VLOG</a></li>
 				</ul>
 			</nav>
@@ -322,12 +323,17 @@
 		</footer>
 	</body>
 	<script>
+		function scrollToAnchor(elementId) {
+			var smoothScroll = new SmoothScroll();
+
+			var anchor = document.getElementById(elementId);
+			document.body.classList.toggle('show');
+			setTimeout(function() {
+				smoothScroll.animateScroll(anchor);
+			},300);
+		}
+
 		document.addEventListener('DOMContentLoaded', function(event) {
-
-			// function scrollTo(elementId) {
-				
-			// }
-
 			document.querySelector('.btn-menu').addEventListener('click', function() {
 				document.body.classList.toggle('show');
 			});
