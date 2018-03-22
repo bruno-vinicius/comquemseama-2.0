@@ -311,13 +311,13 @@
 		<footer>
 			<nav>
 				<ul>
-					<li><a href="">INÍCIO</a></li>
-					<li><a href="">HORA E LOCAL</a></li>
-					<li><a href="">MAPA</a></li>
-					<li><a href="">TRANSPORTE E ACOMODAÇÃO</a></li>
-					<li><a href="">PRESENTES</a></li>
-					<li><a href="">RSVP</a></li>
-					<li><a href="">VLOG</a></li>
+					<li><a onclick="scrollToAnchor('index')">INÍCIO</a></li>
+					<li><a onclick="scrollToAnchor('date-and-venue')">HORA E LOCAL</a></li>
+					<li><a onclick="scrollToAnchor('map')">MAPA</a></li>
+					<li><a onclick="scrollToAnchor('location-info')">ACOMODAÇÃO</a></li>
+					<li><a onclick="scrollToAnchor('gifts')">PRESENTES</a></li>
+					<li><a onclick="scrollToAnchor('confirmation')">RSVP</a></li>
+					<li><a>VLOG</a></li>
 				</ul>
 			</nav>
 		</footer>
@@ -325,9 +325,10 @@
 	<script>
 		function scrollToAnchor(elementId) {
 			var smoothScroll = new SmoothScroll();
-
 			var anchor = document.getElementById(elementId);
-			document.body.classList.toggle('show');
+			
+			(window.screen.width <= 800) && document.body.classList.toggle('show');
+			
 			setTimeout(function() {
 				smoothScroll.animateScroll(anchor);
 			},300);
