@@ -14,12 +14,32 @@
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="assets/css/fonts.css">
 		<link rel="stylesheet" href="assets/css/colors.css">
-		<link rel="stylesheet" href="../comquemseama-2.0_files/css" id="font_googleFonts">
-		<link rel="stylesheet" href="../comquemseama-2.0_files/languages.css" id="font_langauges">
+		<link rel="stylesheet" href="assets/css/menu.css">
+		<link rel="stylesheet" href="assets/default/css" id="font_googleFonts">
+		<link rel="stylesheet" href="assets/default/languages.css" id="font_langauges">
+		<script src="assets/js/smooth-scroll.min.js"></script>
 	</head>
 
 	<body class="background">
-		<header>
+		<button class="btn-menu">
+			<span class="bar"></span>
+			<span class="text">Menu</span>
+		</button>
+		<div class="mobile-menu overlay">
+			<nav>
+				<ul>
+					<li><a onclick="scrollToAnchor('index')">INÍCIO</a></li>
+					<li><a onclick="scrollToAnchor('date-and-venue')">HORA E LOCAL</a></li>
+					<li><a onclick="scrollToAnchor('map')">MAPA</a></li>
+					<li><a onclick="scrollToAnchor('location-info')">ACOMODAÇÃO</a></li>
+					<li><a onclick="scrollToAnchor('gifts')">PRESENTES</a></li>
+					<li><a onclick="scrollToAnchor('confirmation')">RSVP</a></li>
+					<li><a>VLOG</a></li>
+				</ul>
+			</nav>
+		</div>
+		<header id="index" class="fade">
+			<img alt="Logomarca do Casamento" class="wedding-logo" src="assets/images/wedding-logo.png" />
 			<div class="wedding-text">
 				<h1 class="font_0 wedding-title">
 					<span>Casamento</span>
@@ -31,7 +51,6 @@
 					<span>Uma experiência para viver com quem se ama</span>
 				</h6>
 			</div>
-			<img alt="Logomarca do Casamento" class="wedding-logo" src="assets/images/wedding-logo.png" />
 			<div class="icon-next-section">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="69.80000305175781 83.50000762939453 60.49998474121094 32.899993896484375"
 				preserveAspectRatio="xMidYMid meet">
@@ -41,12 +60,15 @@
 				</svg>
 			</div>
 		</header>
-		<section>
+		<section class="fade">
 			<img alt="Montagem de fotos dos noivos" class="bride-groom-photo" src="assets/images/bride-and-groom.png" />
 		</section>
-		<section class="date-info">
+		<section id="date-and-venue" class="date-info fade">
 			<div class="text-info">
-				<h3 class="font_3 date-info-title">O GRANDE</h3>
+				<div>
+					<h3 class="font_3 date-info-title">O GRANDE</h3>
+					<div class="spark-test"></div>
+				</div>
 				<h3 class="font_3 date-info-title yellow">DIA</h3>
 				<div class="spark">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="77.19999694824219 49 45.49999237060547 102.00001525878906" preserveAspectRatio="xMidYMid meet">
@@ -114,12 +136,10 @@
 				</div>
 			</div>
 		</section>
-		<section class="location-map">
+		<section id="map" class="location-map fade">
 			<img alt="seta para a direita" width="260px" class="simple-arrow arrow-right" src="assets/images/simple-arrow.png">
 			<div class="map-canvas">
 				<iframe
-					width="850"
-					height="404"
 					frameborder="0" style="border:0"
 					src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAezS00u-oyh50uQ1YUa77At56Ty5ugSS8&q=quinta+das+bromelias"
 					allowfullscreen>
@@ -127,7 +147,7 @@
 			</div>
 			<img alt="seta para a esquerda" width="260px" class="simple-arrow" src="assets/images/simple-arrow-2.png">
 		</section>
-		<section class="transport-info">
+		<section id="location-info" class="transport-info fade">
 			<div class="text-info">
 				<h3 class="font_3 date-info-title blue">COMO CHEGAR</h3>
 				<h3 class="font_3 date-info-title white">LÁ</h3>
@@ -199,10 +219,10 @@
 				</div>
 			</div>
 		</section>
-		<section>
+		<section class="fade">
 			<img alt="foto dos noivos" class="bride-groom-photo" src="assets/images/close-photo.webp" />
 		</section>
-		<section class="gift-list">
+		<section id="gifts" class="gift-list fade">
 			<div class="text-info">
 				<h3 class="font_3 date-info-title">LISTA DE <span class="blue">PRESENTES</span></h3>
 				<div class="spark">
@@ -234,7 +254,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="rsvp">
+		<section id="confirmation" class="rsvp fade">
 			<div class="text-info">
 				<div class="spark">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="77.19999694824219 49 45.49999237060547 102.00001525878906" preserveAspectRatio="xMidYMid meet">
@@ -291,16 +311,34 @@
 		<footer>
 			<nav>
 				<ul>
-					<li><a href="">INÍCIO</a></li>
-					<li><a href="">HORA E LOCAL</a></li>
-					<li><a href="">MAPA</a></li>
-					<li><a href="">TRANSPORTE E ACOMODAÇÃO</a></li>
-					<li><a href="">PRESENTES</a></li>
-					<li><a href="">RSVP</a></li>
-					<li><a href="">VLOG</a></li>
+					<li><a onclick="scrollToAnchor('index')">INÍCIO</a></li>
+					<li><a onclick="scrollToAnchor('date-and-venue')">HORA E LOCAL</a></li>
+					<li><a onclick="scrollToAnchor('map')">MAPA</a></li>
+					<li><a onclick="scrollToAnchor('location-info')">ACOMODAÇÃO</a></li>
+					<li><a onclick="scrollToAnchor('gifts')">PRESENTES</a></li>
+					<li><a onclick="scrollToAnchor('confirmation')">RSVP</a></li>
+					<li><a>VLOG</a></li>
 				</ul>
 			</nav>
 		</footer>
 	</body>
+	<script>
+		function scrollToAnchor(elementId) {
+			var smoothScroll = new SmoothScroll();
+			var anchor = document.getElementById(elementId);
+			
+			(window.screen.width <= 800) && document.body.classList.toggle('show');
+			
+			setTimeout(function() {
+				smoothScroll.animateScroll(anchor);
+			},300);
+		}
+
+		document.addEventListener('DOMContentLoaded', function(event) {
+			document.querySelector('.btn-menu').addEventListener('click', function() {
+				document.body.classList.toggle('show');
+			});
+		});
+	</script>
 
 </html>

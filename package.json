@@ -4,7 +4,7 @@
   "description": "site do casamento",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./ -a localhost -p 9100",
+    "start": "http-server ./copy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
