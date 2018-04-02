@@ -384,9 +384,14 @@ header {
     padding-left: 0px;
 }
 
+.rsvp .amatic {
+    font-family: 'amatic sc', cursive;
+    font-size: 22px;
+}
+
 .rsvp p {
     font-family: belinda-w00-regular,script;
-    font-size: 22px;
+    font-size: 24px;
     color: #000000;
     max-width: 700px;
     margin: 20px auto;
@@ -424,7 +429,7 @@ header {
 
 .confirm-band span {
     position: absolute;
-    top: 316px;
+    top: 262px;
     left: 375px;
     font: normal normal 700 30px/1.4em 'amatic sc', cursive
 }
@@ -439,27 +444,21 @@ header {
 
 .rsvp .hint {
     display: inline-block;
-    width: 300px;
-    height: 134px;
-    text-align: left;
+    width: auto;
+    height: auto;
+    text-align: center;
     color: #ffffff;
-    padding-left: 40px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding: 15px 40px 10px 40px;
+    font-weight: bold;
 }
 
 .rsvp .hint span {
     display: block;
-    margin-bottom: 10px;
+    line-height: 60px;
 }
 
 .rsvp .hint span:last-of-type {
-    font-weight: normal;
-}
-
-.rsvp form {
-    display: inline-block;
-    margin-left: 35px;
+    font-size: 24px;
 }
 
 .rsvp .input-group {
@@ -521,6 +520,7 @@ header {
     font-family: amatic sc,cursive;
     font-size: 20px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .phone-info span:first-of-type {
@@ -546,11 +546,13 @@ footer nav {
 
 footer nav ul {
     padding-top: 17px;
+    text-align: center;
 }
 
 footer nav a {
     text-decoration: none;
     color: #F7E07C;
+    cursor: pointer;
     /* #B6B6B6 */
 }
 
