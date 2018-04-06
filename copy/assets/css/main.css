@@ -167,40 +167,24 @@ header {
 }
 
 .button-more-info {
-    width: 254px;
-    height: 40px;
-    background-color: rgba(49, 99, 93, 1);
+    border-radius: 20px;
+    background-color: #F9DF7E;
     font: normal normal 700 24px/1.4em 'amatic sc', cursive;
     color: #000000;
     display: inline-block;
     position: relative;
-    white-space: nowrap;
-    padding-left: 38px;
+    padding-left: 30px;
     line-height: 39px;
     text-decoration: none;
     margin-top: 30px;
-}
-
-.button-more-info::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    right: -40px;
-    border-width: 20px;
-    border-color: transparent transparent transparent rgba(49, 99, 93, 1);;
-}
-
-.button-more-info:hover::after {
-    border-left-color: #F7E07C;
+    padding-right: 30px;
+    transition: background-color 0.4s ease 0s;
 }
 
 .button-more-info:hover {
     cursor: pointer;
     color: #ffffff;
-    background-color: rgba(247, 224, 124, 1);
+    background-color: #2b689c;
 }
 
 .go-to-map {
