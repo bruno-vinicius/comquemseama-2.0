@@ -128,6 +128,14 @@
 
 .transport-info .font_5 {
     vertical-align: inherit;
+    font: normal normal 22px/1.4em belinda-w00-regular,script;
+    color: #F5EE6E;
+}
+
+.transport-info span {
+    font: normal normal 22px/1.4em sacramento,cursive;
+    color: #FFFFFF;
+    display: block; 
 }
 
 @media screen and (max-width: 800px) {

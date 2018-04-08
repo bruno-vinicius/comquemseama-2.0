@@ -234,6 +234,16 @@ header {
     background-repeat: repeat;
     background-position: center center;
     width: 100%;
+    min-height: 575px;
+}
+
+.transport-info .text-info:first-of-type {
+    margin-bottom: 70px;
+    width: 860px;
+}
+
+.transport-info .date-info-title {
+    font-size: 80px;
 }
 
 .transport-info .spark svg {
@@ -247,6 +257,85 @@ header {
     top: -55px;
     height: 100px;
     left: -47px;
+}
+
+.transport-info .groomsmen {
+    height: auto;
+    width: 206px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    display: inline-block;
+}
+
+.transport-info .groomsmen span {
+    line-height: 35px;
+}
+
+.transport-info .groomsmen-large {
+    width: auto;
+    padding: 0px 15px;
+}
+
+.groomsmen-hint {
+    font-size: 22px;
+    font-family: belinda-w00-regular,script;
+    color: #000000;
+    text-align: center;
+    right: 0px;
+    width: 320px;
+    position: absolute;
+    top: 85px;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.groomsmen-left {
+    display: inline-block;
+    height: 255px;
+    width: 200px;
+    margin-right: 50px;
+    vertical-align: top;
+}
+
+.groomsmen-center {
+    display: inline-block;
+    height: 225px;
+    width: 340px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.groomsmen-center .groomsmen {
+    margin-bottom: 15px;
+}
+
+.groomsmen-center .groomsmen:last-child{
+    margin-bottom: 0px;
+}
+
+.groomsmen-right {
+    display: inline-block;
+    height: 255px;
+    width: 200px;
+    vertical-align: top;
+}
+
+.transport-info .fullfilled-heart{
+    width: 41px;
+    height: 32px;
+    object-fit: cover;
+    margin-top: 56px;
+}
+
+.transport-info .heart{
+    width: 33px;
+    height: 30px;
+    object-fit: cover;
+    transform: rotate(32.136deg) translateZ(0px);
+    margin-top: 56px;
+    margin-left: 80%;
 }
 
 .hotels-list {
@@ -694,8 +783,8 @@ footer nav li {
     }
 
     .confirm-band span {
-        top: 331px;
-        left: 95px;
+        top: 279px;
+        left: 89px;
     }
 
     form[name=contactForm] {

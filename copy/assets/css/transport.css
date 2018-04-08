@@ -1,0 +1,60 @@
+header {
+    height: 100vh;
+}
+
+.icon-next-section {
+    top: 85%;
+}
+
+.date-info {
+    padding-top: 30px;
+}
+
+.date-info-title {
+    color: #ffffff;
+    font-size: 68px;
+}
+
+.yellow {
+    color: #F7E07C;
+}
+
+.info-box {
+    margin-top: 50px;
+    background-color: #ba7d84;
+    width: 885px;
+    height: 480px;
+    box-shadow: -1.09px 6.9px 4px 0px rgba(0,0,0,0.49);
+    padding-left: 25px;
+}
+
+.info-box h3 {
+    font-family: fredericka the great,fantasy;
+    color: #0B114D;
+    font-size: 34px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 23px;
+}
+
+.campinas-image {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.campinas-text {
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+    margin-top: 32px;
+}
+
+.campinas-text p {
+    text-align: center;
+    font: normal normal normal 14px/1.4em raleway,sans-serif;
+    color: #FFFFFF;
+    letter-spacing: normal;
+    margin-bottom: 16px;
+    line-height: normal;
+}
