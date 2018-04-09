@@ -714,7 +714,24 @@ footer nav li {
         height: 100%;
     }
 
+    .transport-info {
+        padding-top: 30px;
+    }
+
+    .transport-info .date-info-title {
+        font-size: 50px;
+    }
+
     .transport-info .text-info {
+        padding-left: 8%;
+        width: 92%;
+    }
+
+    .transport-info .text-info:first-of-type {
+        margin-bottom: 30px;
+    }
+
+    .transport-info .text-info:first-of-type {
         padding-left: 8%;
         width: 92%;
     }
@@ -728,10 +745,42 @@ footer nav li {
         top: -30%;
     }
 
+    .transport-info .text-info-center {
+        width: 100%;
+        padding: 0;
+    }
+
+    .groomsmen-center {
+        margin-right: 0;
+    }
+
+    .groomsmen-left {
+        width: 80%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .groomsmen-right {
+        width: 80%;
+        height: auto;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .groomsmen-hint {
+        position: relative;
+        margin-top: 20px;
+        top: 0px;
+    }
+
     .transport-info .hint {
-        width: 90%;
+        width: 92%;
         font-size: 24px;
         height: auto;
+    }
+
+    .transport-info .heart, .transport-info .fullfilled-heart {
+        display: none;
     }
 
     .heart-icon {
