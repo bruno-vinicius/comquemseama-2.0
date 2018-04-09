@@ -167,40 +167,24 @@ header {
 }
 
 .button-more-info {
-    width: 254px;
-    height: 40px;
-    background-color: rgba(49, 99, 93, 1);
+    border-radius: 20px;
+    background-color: #F9DF7E;
     font: normal normal 700 24px/1.4em 'amatic sc', cursive;
     color: #000000;
     display: inline-block;
     position: relative;
-    white-space: nowrap;
-    padding-left: 38px;
+    padding-left: 30px;
     line-height: 39px;
     text-decoration: none;
     margin-top: 30px;
-}
-
-.button-more-info::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    right: -40px;
-    border-width: 20px;
-    border-color: transparent transparent transparent rgba(49, 99, 93, 1);;
-}
-
-.button-more-info:hover::after {
-    border-left-color: #F7E07C;
+    padding-right: 30px;
+    transition: background-color 0.4s ease 0s;
 }
 
 .button-more-info:hover {
     cursor: pointer;
     color: #ffffff;
-    background-color: rgba(247, 224, 124, 1);
+    background-color: #2b689c;
 }
 
 .go-to-map {
@@ -250,6 +234,16 @@ header {
     background-repeat: repeat;
     background-position: center center;
     width: 100%;
+    min-height: 575px;
+}
+
+.transport-info .text-info:first-of-type {
+    margin-bottom: 70px;
+    width: 860px;
+}
+
+.transport-info .date-info-title {
+    font-size: 80px;
 }
 
 .transport-info .spark svg {
@@ -263,6 +257,85 @@ header {
     top: -55px;
     height: 100px;
     left: -47px;
+}
+
+.transport-info .groomsmen {
+    height: auto;
+    width: 206px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    display: inline-block;
+}
+
+.transport-info .groomsmen span {
+    line-height: 35px;
+}
+
+.transport-info .groomsmen-large {
+    width: auto;
+    padding: 0px 15px;
+}
+
+.groomsmen-hint {
+    font-size: 22px;
+    font-family: belinda-w00-regular,script;
+    color: #000000;
+    text-align: center;
+    right: 0px;
+    width: 320px;
+    position: absolute;
+    top: 85px;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.groomsmen-left {
+    display: inline-block;
+    height: 255px;
+    width: 200px;
+    margin-right: 50px;
+    vertical-align: top;
+}
+
+.groomsmen-center {
+    display: inline-block;
+    height: 225px;
+    width: 340px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.groomsmen-center .groomsmen {
+    margin-bottom: 15px;
+}
+
+.groomsmen-center .groomsmen:last-child{
+    margin-bottom: 0px;
+}
+
+.groomsmen-right {
+    display: inline-block;
+    height: 255px;
+    width: 200px;
+    vertical-align: top;
+}
+
+.transport-info .fullfilled-heart{
+    width: 41px;
+    height: 32px;
+    object-fit: cover;
+    margin-top: 56px;
+}
+
+.transport-info .heart{
+    width: 33px;
+    height: 30px;
+    object-fit: cover;
+    transform: rotate(32.136deg) translateZ(0px);
+    margin-top: 56px;
+    margin-left: 80%;
 }
 
 .hotels-list {
@@ -384,9 +457,14 @@ header {
     padding-left: 0px;
 }
 
+.rsvp .amatic {
+    font-family: 'amatic sc', cursive;
+    font-size: 22px;
+}
+
 .rsvp p {
     font-family: belinda-w00-regular,script;
-    font-size: 22px;
+    font-size: 24px;
     color: #000000;
     max-width: 700px;
     margin: 20px auto;
@@ -424,7 +502,7 @@ header {
 
 .confirm-band span {
     position: absolute;
-    top: 316px;
+    top: 262px;
     left: 375px;
     font: normal normal 700 30px/1.4em 'amatic sc', cursive
 }
@@ -439,27 +517,21 @@ header {
 
 .rsvp .hint {
     display: inline-block;
-    width: 300px;
-    height: 134px;
-    text-align: left;
+    width: auto;
+    height: auto;
+    text-align: center;
     color: #ffffff;
-    padding-left: 40px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding: 15px 40px 10px 40px;
+    font-weight: bold;
 }
 
 .rsvp .hint span {
     display: block;
-    margin-bottom: 10px;
+    line-height: 60px;
 }
 
 .rsvp .hint span:last-of-type {
-    font-weight: normal;
-}
-
-.rsvp form {
-    display: inline-block;
-    margin-left: 35px;
+    font-size: 24px;
 }
 
 .rsvp .input-group {
@@ -521,6 +593,7 @@ header {
     font-family: amatic sc,cursive;
     font-size: 20px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .phone-info span:first-of-type {
@@ -546,11 +619,13 @@ footer nav {
 
 footer nav ul {
     padding-top: 17px;
+    text-align: center;
 }
 
 footer nav a {
     text-decoration: none;
     color: #F7E07C;
+    cursor: pointer;
     /* #B6B6B6 */
 }
 
@@ -708,8 +783,8 @@ footer nav li {
     }
 
     .confirm-band span {
-        top: 331px;
-        left: 95px;
+        top: 279px;
+        left: 89px;
     }
 
     form[name=contactForm] {

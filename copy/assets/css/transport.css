@@ -1,0 +1,113 @@
+header {
+    height: 585px;
+}
+
+.icon-next-section {
+    top: 85%;
+}
+
+.text-info {
+    margin-top: 50px;
+}
+
+.date-info {
+    padding-top: 30px;
+    min-height: 1860px;
+}
+
+.date-info-title {
+    color: #ffffff;
+    font-size: 68px;
+}
+
+.yellow {
+    color: #F7E07C;
+}
+
+.strong-yellow {
+    color: #F5EE6E;
+}
+
+.info-box {
+    margin-top: 50px;
+    background-color: #ba7d84;
+    width: 885px;
+    height: 480px;
+    box-shadow: -1.09px 6.9px 4px 0px rgba(0,0,0,0.49);
+    padding-left: 25px;
+}
+
+.info-box h3 {
+    font-family: fredericka the great,fantasy;
+    color: #0B114D;
+    font-size: 34px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 23px;
+}
+
+.campinas-image {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.campinas-text {
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+    margin-top: 32px;
+}
+
+.campinas-text p {
+    text-align: center;
+    font: normal normal normal 14px/1.4em raleway,sans-serif;
+    color: #FFFFFF;
+    letter-spacing: normal;
+    margin-bottom: 16px;
+    line-height: normal;
+}
+
+.campinas-text p.yellow {
+    color: #F7E07C;
+    font-weight: bold;
+}
+
+.tape {
+    background: url("../images/tape.png") no-repeat;
+    width: 78px;
+    height: 40px;
+    position: absolute;
+    display: inline-block;
+    top: -20px;
+    left: 43%;
+}
+
+.tape-bottom {
+    top: 96%;
+}
+
+.travel-info {
+    font-family: amatic sc,cursive;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 34px;
+}
+
+.svg-wrapper {
+    margin-bottom: 10px;
+}
+
+.svg-wrapper svg {
+    vertical-align: top;
+    width: 78px;
+    height: 46px;
+}
+
+.font_5 {
+    letter-spacing: 0.05em;
+}
+
+.margin-left {
+    margin-left: 70%;
+}
