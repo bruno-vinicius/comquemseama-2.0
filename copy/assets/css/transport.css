@@ -1,13 +1,18 @@
 header {
-    height: 100vh;
+    height: 585px;
 }
 
 .icon-next-section {
     top: 85%;
 }
 
+.text-info {
+    margin-top: 50px;
+}
+
 .date-info {
     padding-top: 30px;
+    min-height: 1200px;
 }
 
 .date-info-title {
@@ -17,6 +22,10 @@ header {
 
 .yellow {
     color: #F7E07C;
+}
+
+.strong-yellow {
+    color: #F5EE6E;
 }
 
 .info-box {
@@ -57,4 +66,48 @@ header {
     letter-spacing: normal;
     margin-bottom: 16px;
     line-height: normal;
+}
+
+.campinas-text p.yellow {
+    color: #F7E07C;
+    font-weight: bold;
+}
+
+.tape {
+    background: url("../images/tape.png") no-repeat;
+    width: 78px;
+    height: 40px;
+    position: absolute;
+    display: inline-block;
+    top: -20px;
+    left: 43%;
+}
+
+.tape-bottom {
+    top: 96%;
+}
+
+.travel-info {
+    font-family: amatic sc,cursive;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 34px;
+}
+
+.svg-wrapper {
+    margin-bottom: 10px;
+}
+
+.svg-wrapper svg {
+    vertical-align: top;
+    width: 78px;
+    height: 46px;
+}
+
+.font_5 {
+    letter-spacing: 0.05em;
+}
+
+.margin-left {
+    margin-left: 70%;
 }
