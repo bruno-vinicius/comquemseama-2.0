@@ -771,6 +771,7 @@ footer nav li {
         position: relative;
         margin-top: 20px;
         top: 0px;
+        width: 92%;
     }
 
     .transport-info .hint {
