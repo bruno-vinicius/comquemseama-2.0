@@ -17,7 +17,7 @@ label,legend,table,caption,tbody,tfoot,thead,tr,th,td,nav,button,section,header,
     background-position: left top; 
     background-repeat: repeat-x; 
     height: 100%; 
-    background-image: url("../images/background.webp");
+    background-image: url("../images/background.jpg");
     background-attachment: fixed;
 }
 
@@ -134,7 +134,7 @@ header {
     object-fit: cover;
 }
 
-.location-info {
+.bestman-bridesmaids {
     margin-top: 30px;
     width: 380px;
     display: inline-block;
@@ -793,7 +793,7 @@ footer nav li {
         bottom: 12%;
     }
 
-    .location-info {
+    .bestman-bridesmaids {
         width: 100%;
     }
 
@@ -852,5 +852,9 @@ footer nav li {
 
     .rsvp input[type=text] {
         width: 100%;
+    }
+
+    .menu-margin-bottom {
+        margin-bottom: 50px;
     }
 }
