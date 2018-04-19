@@ -12,7 +12,8 @@ header {
 
 .date-info {
     padding-top: 30px;
-    min-height: 1860px;
+    height: auto;
+    padding-bottom: 200px;
 }
 
 .date-info-title {
@@ -32,7 +33,6 @@ header {
     margin-top: 50px;
     background-color: #ba7d84;
     width: 885px;
-    height: 480px;
     box-shadow: -1.09px 6.9px 4px 0px rgba(0,0,0,0.49);
     padding-left: 25px;
 }
@@ -71,6 +71,7 @@ header {
 .campinas-text p.yellow {
     color: #F7E07C;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
 .tape {
@@ -110,6 +111,34 @@ header {
 
 .margin-left {
     margin-left: 70%;
+}
+
+.campinas-text h3 {
+    color: #0B114D;
+    font-family: amatic sc,cursive;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hotels-info {
+    height: auto;
+    width: auto;
+}
+
+.hotels-info p {
+    line-height: 35px;
+}
+
+.hotels-info p.yellow {
+    font-family: amatic sc,cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: #F7E07C;
+}
+
+.hotel-info .tape-bottom {
+    top: 99%
 }
 
 @media screen and (max-width: 800px) {
@@ -185,5 +214,9 @@ header {
 
     .margin-left {
         margin-left: 28%;
+    }
+
+    .hotel-info .tape-bottom {
+        top: 99.5%
     }
 }
