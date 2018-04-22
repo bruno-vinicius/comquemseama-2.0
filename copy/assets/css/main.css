@@ -648,6 +648,10 @@ footer nav li {
         height: 100%;
     }
 
+    .background {
+        background-attachment: scroll;
+    }
+
     .text-info {
         width: 97%;
         padding-left: 3%;
