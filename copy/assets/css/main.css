@@ -13,12 +13,17 @@ label,legend,table,caption,tbody,tfoot,thead,tr,th,td,nav,button,section,header,
     position: absolute; 
     top: 0px; 
     width: 100%; 
-    background-size: auto; 
+    background-size: cover; 
     background-position: left top; 
     background-repeat: repeat-x; 
     height: 100%; 
     background-image: url("../images/background.jpg");
-    background-attachment: fixed;
+    background-attachment: scroll;
+}
+
+.background-fix {
+    position: fixed;
+    z-index: -1;
 }
 
 header {
