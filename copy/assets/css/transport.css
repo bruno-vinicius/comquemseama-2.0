@@ -57,6 +57,7 @@ header {
     width: 420px;
     vertical-align: top;
     margin-top: 32px;
+    padding-right: 15px;
 }
 
 .campinas-text p {
@@ -197,6 +198,7 @@ header {
 
     .campinas-text {
         width: 92%;
+        padding-right: auto;
     }
 
     .tape {

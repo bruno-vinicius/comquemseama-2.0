@@ -13,12 +13,12 @@ label,legend,table,caption,tbody,tfoot,thead,tr,th,td,nav,button,section,header,
     position: absolute; 
     top: 0px; 
     width: 100%; 
-    background-size: auto; 
-    background-position: left top; 
-    background-repeat: repeat-x; 
     height: 100%; 
-    background-image: url("../images/background.jpg");
-    background-attachment: fixed;
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 header {
@@ -646,10 +646,6 @@ footer nav li {
     header {
         width: 100%;
         height: 100%;
-    }
-
-    .background {
-        background-attachment: scroll;
     }
 
     .text-info {
