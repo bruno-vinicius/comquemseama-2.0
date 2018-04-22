@@ -13,8 +13,12 @@ label,legend,table,caption,tbody,tfoot,thead,tr,th,td,nav,button,section,header,
     position: absolute; 
     top: 0px; 
     width: 100%; 
+    background-size: auto; 
+    background-position: left top; 
+    background-repeat: repeat-x; 
     height: 100%; 
-    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
 }
 
 header {
