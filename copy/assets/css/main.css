@@ -13,7 +13,7 @@ label,legend,table,caption,tbody,tfoot,thead,tr,th,td,nav,button,section,header,
     position: absolute; 
     top: 0px; 
     width: 100%; 
-    background-size: cover; 
+    background-size: initial; 
     background-position: left top; 
     background-repeat: repeat-x; 
     height: 100%; 
