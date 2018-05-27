@@ -412,6 +412,12 @@ header {
     padding-bottom: 40px;
 }
 
+.gift-video {
+    width: 560px; 
+    height: 315px;
+    margin-bottom: 50px; 
+}
+
 .gift-icon {
     height: 60px;
     width: 60px;
@@ -835,6 +841,12 @@ footer nav li {
         display: block;
         margin: 0 auto;
         padding-top: 26px;
+    }
+
+    .gift-video {
+        width: 560px; 
+        height: 315px;
+        margin-bottom: 50px; 
     }
 
     .gift-list .date-info-title {
