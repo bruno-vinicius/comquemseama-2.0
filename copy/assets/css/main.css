@@ -528,7 +528,7 @@ header {
 .confirm-band span {
     position: absolute;
     top: 262px;
-    left: 375px;
+    left: 425px;
     font: normal normal 700 30px/1.4em 'amatic sc', cursive
 }
 
@@ -877,8 +877,8 @@ footer nav li {
     }
 
     .confirm-band span {
-        top: 279px;
-        left: 89px;
+        top: 300px;
+        left: 110px;
     }
 
     form[name=contactForm] {
